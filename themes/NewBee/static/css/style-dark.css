@@ -1,6 +1,6 @@
 :root {
     --bgc-1-rgb: 80, 80, 80;
-    --bgc-2-rgb: 60, 60, 60;
+    --bgc-2-rgb: 17, 17, 17;
     --bgc-3-rgb: 40, 40, 40;
 
     --primary-rgb: 217, 80, 119;
@@ -44,6 +44,13 @@
         2px 2px 3px 1px rgba(0, 0, 0, 0.3) inset,
         -1px -1px 3px 2px var(--bgc-1) inset;
     --efct-button-hover-ts: 2px 2px 3px rgba(0, 0, 0, 0.2);
+
+    /* --- */
+
+    --gradient-right: rgba(248, 70, 180, 0.301);
+    --gradient-left: rgba(9, 243, 99, 0.247);
+    --gradient-background-right: rgba(70, 227, 248, 0);
+    --gradient-background-left: rgba(239, 243, 9, 0.13);
 }
 
 body:after {

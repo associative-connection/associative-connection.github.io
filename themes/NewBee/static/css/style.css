@@ -143,7 +143,7 @@ body {
     color: var(--color);
     display: flex;
     flex-direction: column;
-    background-color: var(--bgc-2);
+    background: radial-gradient(farthest-side at top right, var(--gradient-right), transparent 500px ), radial-gradient( farthest-corner at top left, var(--gradient-left), transparent 600px ), radial-gradient( farthest-corner at bottom right, var(--gradient-background-right), transparent 500px ), radial-gradient( farthest-corner at bottom left, var(--gradient-background-left), transparent 600px);
     position: relative;
 }
 
@@ -316,8 +316,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 3;
-    /*display: flex;
-    flex-direction: column;*/ 
+    background-color: rgba(var(--bgc-2-rgb), .9);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
 }
@@ -328,12 +327,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--bgc-1) !important;
-    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .1);
+    /*border-bottom: 1px solid var(--bgc-1) !important;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .1);*/
     box-sizing: border-box;
     position: relative;
     z-index: 2;
-    background-color: rgba(var(--bgc-2-rgb), .9);
 }
 
 .logo {
@@ -622,7 +620,6 @@ header {
     margin-right: 1px;
     max-width: 100%;
     flex: 1;
-    box-shadow: 0 0 15px 2px rgba(0, 0, 0, .1);
     box-sizing: border-box;
     display: flex; 
 }
