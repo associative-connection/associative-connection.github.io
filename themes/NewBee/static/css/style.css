@@ -552,7 +552,6 @@ header {
 
 .hero {
     width: 100%;
-    padding: 20px;
     margin-top: 60px;
     box-sizing: border-box;
     position: relative;
@@ -1587,7 +1586,6 @@ body::after {
     }
     .hero-img, .hero-img-home {
         height: 200px;
-        border-radius: 20px;
     }
     .hero-title {
         font-size: 30px;
