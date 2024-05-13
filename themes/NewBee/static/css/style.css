@@ -80,12 +80,16 @@
     --efct-button-hover-ts: 2px 2px 3px rgba(25, 25, 25, 0.1);
     --width-img-category: 150px;
 
-    --myfont: 'Philosopher', sans-serif;
+    --myfont: 'Roboto', sans-serif;
 }
 
 * {
     padding: 0;
     margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Philosopher', sans-serif;
+    text-rendering: optimizeLegibility;
 }
 h1 {
     font-size: 26px;
