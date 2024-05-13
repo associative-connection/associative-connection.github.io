@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Metal+Mania&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 :root {
     --bgc-1-rgb: 255, 255, 255;
     --bgc-2-rgb: 245, 245, 245;
@@ -78,7 +80,7 @@
     --efct-button-hover-ts: 2px 2px 3px rgba(25, 25, 25, 0.1);
     --width-img-category: 150px;
 
-    --myfont: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Heiti SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+    --myfont: 'Philosopher', sans-serif;
 }
 
 * {
