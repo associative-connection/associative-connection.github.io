@@ -46,23 +46,25 @@
 
 {{ if eq .Kind "home" }}
     <div class="hero">
-        {{ with .Site.Params.page.homeTopImg }}
-        <div class="hero-img-home">
-            <img class="lazyload" src="/images/thumbnail.gif" data-src="{{ . }}" alt="">
-        </div>
-        {{ end }}
-        <div class="hero-content">
-                    {{ $hometitlefontsize := .Site.Params.page.homeTitleFontSize }}
-                    {{ $homecontentfontsize := .Site.Params.page.homeContentFontSize }}
-                    {{ with $hero_title }}
-                        <div class="hometitle" style="font-size: {{ $hometitlefontsize }}px; margin-bottom: 20px;">{{ . | markdownify }}</div>
-                    {{ end }}
-                    {{ with $hero_des }}
-                        <div class="homecontent" style="font-size: {{ $homecontentfontsize }}px;">{{ . | markdownify }}</div>
-                    {{ end }}
-                <button class="todown" type="button">
-                    <i class="fa fa-angle-down fa-3x"></i>
-                </button>
+        <div class="container">
+            {{ with .Site.Params.page.homeTopImg }}
+            <div class="hero-img-home">
+                <img class="lazyload" src="/images/thumbnail.gif" data-src="{{ . }}" alt="">
+            </div>
+            {{ end }}
+            <div class="hero-content">
+                        {{ $hometitlefontsize := .Site.Params.page.homeTitleFontSize }}
+                        {{ $homecontentfontsize := .Site.Params.page.homeContentFontSize }}
+                        {{ with $hero_title }}
+                            <div class="hometitle" style="font-size: {{ $hometitlefontsize }}px; margin-bottom: 20px;">{{ . | markdownify }}</div>
+                        {{ end }}
+                        {{ with $hero_des }}
+                            <div class="homecontent" style="font-size: {{ $homecontentfontsize }}px;">{{ . | markdownify }}</div>
+                        {{ end }}
+                    <button class="todown" type="button">
+                        <i class="fa fa-angle-down fa-3x"></i>
+                    </button>
+            </div>
         </div>
     </div>
 
