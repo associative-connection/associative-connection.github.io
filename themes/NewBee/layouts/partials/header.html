@@ -1,6 +1,6 @@
 <header>
-    <div class="container">
-        <nav class="navbar">
+    <nav class="navbar">
+        <div class="container">
             <div class="navbar-brand">
                 <a href="/">
                     <span class="logo">{{ .Site.Title }}</span>
@@ -32,16 +32,16 @@
                     </div>
                 {{ end }}
             </div>
-        </nav>
-        <div class="burger-items">
-            {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">
-                <div class="burger-item">
-                    {{ .Pre }} {{ .Name }}
-                </div>
-            </a>
-            {{ end }}
         </div>
-        <div class="header-rest"></div>
+    </nav>
+    <div class="burger-items">
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">
+            <div class="burger-item">
+                {{ .Pre }} {{ .Name }}
+            </div>
+        </a>
+        {{ end }}
     </div>
+    <div class="header-rest"></div>
 </header>
