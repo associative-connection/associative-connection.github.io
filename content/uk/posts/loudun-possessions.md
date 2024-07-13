@@ -1,5 +1,5 @@
 ---
-title: "Loudun possessions 1634 | Matka Joanna Od Aniolow 1961"
+title: "Loudun possessions 1634"
 date: 1634-01-01
 
 # format for string: "xxxx-xx-xx"
@@ -15,9 +15,9 @@ tags: []
 # seires
 series: ["Horrors about investigations inside monasteries", "Women's monasteries infiltrated by evil"]
 # Top image for the post
-image: "/uk/images/posts/loudun-possessions/cover.jpg"
+image: ""
 # Hide from home page
 hideFromHomePage: false
 ---
-https://www.imdb.com/title/tt0055153/
+
 <!--more-->
