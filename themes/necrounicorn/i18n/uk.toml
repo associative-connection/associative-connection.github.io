@@ -41,8 +41,12 @@
 	other = 'content'
 [sidebar_comment] # This button will not appear until the comment function is turned on
 	other = 'comment'
+[sidebar_articles]
+	other = 'articles'
 [sidebar_posts]
 	other = 'posts'
+[sidebar_series]
+	other = 'series'
 [sidebar_categories]
 	other = 'categories'
 [sidebar_tags]
@@ -62,7 +66,7 @@
 [postInfo_updatedOn]
 	other = 'updatedOn'
 [postInfo_includedIn]
-	other = 'includedIn'
+	other = 'categories'
 [postInfo_notIncluded]
 	other = 'notIncluded'
 [postInfo_wordsCount]

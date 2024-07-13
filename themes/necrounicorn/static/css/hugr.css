@@ -3,7 +3,7 @@
 	Theme URI: localhost
 	Author: Sam aka Сиреноголова
 	Author URI: https://github.com/vsezlotov
-	Version: 20.3
+	Version: 20.7
 */
 @import url('Tykhon.css') supports( (--test: 1) ); /* default startup check for wretched */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Metal+Mania&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
@@ -814,7 +814,7 @@ body.page-template-feed-main .grid_cover, body.page-template-feed-main-uk .grid_
     display: inline-block;
     margin: 5px 10px 5px 0;
 }
-.grid_info a {color: #111;}
+.grid_info a {line-height: 1.6; color: #111;}
 .grid_info a:hover {color: pink;}
 
 .grid .text p {font-family: 'Roboto', sans-serif;}
@@ -837,22 +837,28 @@ body.page-template-feed-main .grid_cover, body.page-template-feed-main-uk .grid_
 }
 
 .content-list-col {
-    width: 199px;
     padding: 10px;
     font-family: 'Philosopher', sans-serif; font-size: 110%;
 }
 
 .content-list-col, .content-list-col ul li a {color: #1e1e20;}
 
-.content-list-col ul {margin-top: 5px;}
+.content-list-col > ul {margin-top: 5px;}
+.content-list-col li ul {padding: 10px 30px;}
+.content-list-col li:not(:last-child) ul {
+    margin-top: 10px;
+    border-bottom: solid 1px #111;
+}
 
-.content-list-col ul li a {
+.content-list-col li ul li {display: block;}
+
+.content-list-col > ul > li > a {
     display: block;
     padding: 10px 0 0px 20px;
     text-decoration: none;
 }
-.content-list-col ul li:last-child a {padding-bottom: 10px;}
-.content-list-col ul li a:hover {
+.content-list-col > ul > li:last-child > a {padding-bottom: 10px;}
+.content-list-col > ul > li > a:hover {
     margin-left: 5px;
     background: url(/img/li.png) no-repeat left center;
     color: #111;
@@ -862,6 +868,7 @@ body.page-template-feed-main .grid_cover, body.page-template-feed-main-uk .grid_
     -ms-transition: margin-left 0.2s ease-in-out;
     transition: margin-left 0.2s ease-in-out;
 }
+.content-list-col li ul li a:hover {color: #111;}
 
 .content-list {padding: 10px 0 10px 0;}
 
@@ -1410,7 +1417,7 @@ body.page-template-feed-main .grid_cover, body.page-template-feed-main-uk .grid_
 /*
  * for tag
  */
-#associative_biopunk a {color: #8c8c8c;}
+#associative_biopunk a {color: #b22;}
 
 /*
  * Правый блок: Реклама

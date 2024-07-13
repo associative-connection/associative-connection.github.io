@@ -2,11 +2,10 @@
 
 <!-- TEMPLATE:
 
-site - name - (occupation)
+site - name - desc
 
 example:
 
-https://xioyito.top - **xioyito** - (Student)
+http://localhost:1313/ - **test** - (Master)
 
 -->
-

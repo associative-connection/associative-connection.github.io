@@ -8,6 +8,8 @@
 
 <ul>
     {{ range $newOrRelated }}
-    <li>{{ partial "widgets/post-card-small.html" . }}</li>
+        <li>
+            {{ partial "widgets/post-card-small.html" . }}
+        </li>
     {{ end }}
 </ul>

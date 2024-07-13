@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 
 # format for string: "xxxx-xx-xx"
-# lastmod: "2022-10-01"
+lastmod: "{{ .Date }}"
 
 # set false when you want the post publish
 draft: true
@@ -14,10 +14,14 @@ categories: []
 tags: []
 # seires
 series: []
-# Top image for the post
+# Top image for the post: /en/images/posts/test/cover.jpg
 image: ""
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 
 <!--more-->

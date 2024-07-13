@@ -13,9 +13,9 @@
                     <span class="logo">inside</span>
                 </a></li>
                 {{ range .Site.Menus.main }}
-                <li class="fl"><a href="{{ .URL }}">
-                    {{ .Pre }} {{ .Name }}
-                </a></li>
+                    <li class="fl"><a href="{{ .URL }}">
+                        {{ .Pre }} {{ .Name }}
+                    </a></li>
                 {{ end }}
             </ul>
         </nav>
@@ -28,8 +28,13 @@
     <div class="content-block">
         <div class="content-list-col">
             {{ if and .Site.IsMultiLingual (not .Site.Params.Site.OnlyOneLang) }}
-            {{ partial "widgets/selectLang.html" . }}
+                {{ partial "widgets/selectLang.html" . }}
             {{ end }}
+        </div>
+    </div>
+    <div class="content-block">
+        <div class="content-list-col">
+            {{ partial "widgets/author-card.html" . }}
         </div>
     </div>
 </div>

@@ -1,12 +1,5 @@
 {{ define "main" }}
-<section class="section">
-    <div class="container max-800px">
-        <h1 class="title is-3">
-            {{ .Title }}
-        </h1>
-        <div class="content">
-            {{ .Content }}
-        </div>
-    </div>
-</section>
+    <section class="base_width p_relative wide_page">
+        {{ partial "widgets/content-all.html" . }}
+    </section>
 {{ end }}
