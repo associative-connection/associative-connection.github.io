@@ -1,9 +1,9 @@
 ---
 title: "The Erotic Witch Project 2000"
-date: 2024-06-19T11:07:15+03:00
+date: 2000-01-01
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-06-19T11:07:15+03:00"
+lastmod: "2024-06-19"
 
 # set false when you want the post publish
 draft: false

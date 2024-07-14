@@ -1,9 +1,9 @@
 ---
 title: "Cycle of the Werewolf 1983"
-date: 2024-07-07T11:05:02+03:00
+date: 1983-11-01
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-07-07T11:05:02+03:00"
+lastmod: "2024-07-07"
 
 # set false when you want the post publish
 draft: false
