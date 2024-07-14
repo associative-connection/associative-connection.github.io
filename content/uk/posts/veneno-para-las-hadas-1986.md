@@ -18,6 +18,10 @@ series: []
 image: "/uk/images/posts/veneno-para-las-hadas-1986/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://es.wikipedia.org/wiki/Veneno_para_las_hadas
 https://www.imdb.com/title/tt0135033/

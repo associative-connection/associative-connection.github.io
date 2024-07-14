@@ -16,8 +16,12 @@ tags: []
 series: []
 # Top image for the post
 image: "/uk/images/posts/resident-evil/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 
 <!--more-->

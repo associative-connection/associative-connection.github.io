@@ -19,7 +19,7 @@ image: "/uk/images/posts/sem-let-v-krestakh-tyurma-glazami-psikhiatra/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
-hideFromArchives: true
+hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---

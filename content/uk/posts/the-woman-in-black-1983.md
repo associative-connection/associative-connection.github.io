@@ -18,6 +18,10 @@ series: []
 image: "/uk/images/posts/the-woman-in-black-1983/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/The_Woman_in_Black
 <!--more-->

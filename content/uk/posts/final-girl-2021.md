@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: []
 # refer to categories
-tags: ["zombie"]
+tags: ["folklore", "zombie"]
 # seires
 series: ["Post-horror we deserve"]
 # Top image for the post

@@ -18,6 +18,10 @@ series: ["Projects based on northern folklore"]
 image: "/uk/images/posts/when-animals-dream-2014/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/When_Animals_Dream
 https://www.imdb.com/title/tt2818178/

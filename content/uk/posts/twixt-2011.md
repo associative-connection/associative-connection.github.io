@@ -16,8 +16,12 @@ tags: ["vampiry"]
 series: ["Horror worlds and writers", "Not the most popular work about vampires"]
 # Top image for the post
 image: "/uk/images/posts/twixt-2011/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Twixt_(film)
 https://www.imdb.com/title/tt1756851/

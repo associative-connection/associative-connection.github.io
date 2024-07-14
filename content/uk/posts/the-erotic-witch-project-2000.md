@@ -19,7 +19,7 @@ image: "/uk/images/posts/the-erotic-witch-project-2000/cover.jpeg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
-hideFromArchives: true
+hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---

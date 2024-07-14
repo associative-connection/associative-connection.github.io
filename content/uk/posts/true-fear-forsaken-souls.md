@@ -18,6 +18,10 @@ series: []
 image: "/uk/images/posts/true-fear-forsaken-souls/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 
 <!--more-->

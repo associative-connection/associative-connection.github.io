@@ -19,7 +19,7 @@ image: "/uk/images/posts/styria-2014/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
-hideFromArchives: true
+hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---

@@ -18,6 +18,10 @@ series: ["Car horror"]
 image: "/uk/images/posts/wind-chill-2007/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Wind_Chill_(film)
 https://www.imdb.com/title/tt0486051/
