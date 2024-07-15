@@ -1,9 +1,9 @@
 ---
 title: "Rosemarys Baby 1967"
-date: 2024-07-15T20:03:27+03:00
+date: 1967-07-15
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-07-15T20:03:27+03:00"
+lastmod: "2024-07-15"
 
 # set false when you want the post publish
 draft: false
@@ -26,4 +26,5 @@ hideFromSection: false
 https://en.wikipedia.org/wiki/Rosemary%27s_Baby_(novel)
 ...
 https://en.wikipedia.org/wiki/Rosemary%27s_Baby_(film)
+https://www.imdb.com/title/tt0063522/
 <!--more-->

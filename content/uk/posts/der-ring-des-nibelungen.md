@@ -18,6 +18,10 @@ series: []
 image: "/uk/images/posts/der-ring-des-nibelungen/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 
 <!--more-->
