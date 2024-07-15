@@ -1,21 +1,21 @@
 ---
-title: "Return of the Obra Dinn 2018"
-date: 2018-10-18
+title: "Clock Tower 1995"
+date: 1995-06-14
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-06-15"
+lastmod: "2024-07-15"
 
 # set false when you want the post publish
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Video games", "Adventure", "Puzzle", "Detective"]
+categories: ["Video games", "Survival horror", "Horror"]
 # refer to categories
-tags: ["indie", "unity", "steam", "xbox one", "playstation 4", "nintendo switch", "narrative", "ghost story", "mystic", "folklore", "urban legend", "foaf", "lucas pope"]
+tags: ["companions", "animals"]
 # seires
-series: ["Horror ship"]
+series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
-image: "/uk/images/posts/return-of-the-obra-dinn-2018/cover.jpg"
+image: "/en/images/posts/clock-tower-1995/cover.png"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
@@ -23,5 +23,9 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn
+https://en.wikipedia.org/wiki/Clock_Tower_(series)
+...
+https://en.wikipedia.org/wiki/Clock_Tower_(1995_video_game)
+https://en.wikipedia.org/wiki/Clock_Tower_II:_The_Struggle_Within
+https://en.wikipedia.org/wiki/Clock_Tower_3
 <!--more-->

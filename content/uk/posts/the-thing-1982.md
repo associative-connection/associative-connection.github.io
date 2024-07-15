@@ -24,6 +24,7 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/The_Thing_(1982_film)
+...
 https://associative-connection.github.io/uk/posts/the-thing-from-another-world-1991/
 https://associative-connection.github.io/uk/posts/who-goes-there-1938/
 <!--more-->

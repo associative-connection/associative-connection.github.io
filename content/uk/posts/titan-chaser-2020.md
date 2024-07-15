@@ -13,7 +13,7 @@ categories: ["Video games", "Action", "Adventure", "Simulation", "Horror"]
 # refer to categories
 tags: ["indie", "steam", "stas shostak"]
 # seires
-series: ["Car horror"]
+series: ["Car horror", "Features of hunting in the world of horror"]
 # Top image for the post
 image: "/uk/images/posts/titan-chaser-2021/cover.jpg"
 # Hide from home and other main page

@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Video games", "Action", "Adventure"]
 # refer to categories
-tags: ["steam", "xbox 360", "xbox one", "playstation 3", "playstation 4", "crystal dynamics"]
+tags: ["steam", "xbox 360", "xbox one", "playstation 3", "playstation 4", "crystal dynamics", "woman antagonist"]
 # seires
 series: []
 # Top image for the post

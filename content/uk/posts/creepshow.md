@@ -15,7 +15,7 @@ tags: ["ghost story", "science fiction", "mystic", "folklore", "urban legend", "
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
-image: "/uk/images/posts/creepshow-1982/cover.jpg"
+image: "/uk/images/posts/creepshow/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page

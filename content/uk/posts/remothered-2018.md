@@ -9,15 +9,19 @@ lastmod: "2024-05-28"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Video games", "Action", "Adventure", "Survival horror", "Horror"]
 # refer to categories
-tags: []
+tags: ["indie", "steam", "xbox one", "playstation 4", "nintendo switch", "stormind games", "science fiction", "folklore", "faith", "biohazard", "poison", "drugs", "madness"]
 # seires
-series: []
+series: ["It's not what it seems"]
 # Top image for the post
 image: "/uk/images/posts/remothered-2018/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Remothered:_Tormented_Fathers
 <!--more-->

@@ -24,5 +24,6 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://thething.fandom.com/wiki/The_Thing_from_Another_World_(comic)
+...
 https://associative-connection.github.io/uk/posts/the-thing-1982/
 <!--more-->

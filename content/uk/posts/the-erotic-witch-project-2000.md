@@ -15,7 +15,7 @@ tags: ["mystic", "folklore", "woman antagonist"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
-image: "/uk/images/posts/the-erotic-witch-project-2000/cover.jpeg"
+image: "/uk/images/posts/the-erotic-witch-project-2000/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page

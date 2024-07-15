@@ -16,8 +16,14 @@ tags: ["drugs", "militarism"]
 series: ["Understanding America"]
 # Top image for the post
 image: "/uk/images/posts/acid-dreams-1985/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Acid_Dreams_(book)
+...
+https://associative-connection.github.io/uk/posts/jacobs-ladder-1990/
 <!--more-->

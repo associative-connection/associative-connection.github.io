@@ -13,7 +13,7 @@ categories: ["Movies", "Fantasy", "Dark fantasy", "Mockumentary", "Found footage
 # refer to categories
 tags: ["folklore", "northern religion", "expedition"]
 # seires
-series: ["Projects based on northern folklore", "Features of hunting in the world of horror"]
+series: ["Projects based on northern folklore", "Features of hunting in the world of horror", "Car horror"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: "/uk/images/posts/troll-hunter-2010/cover.jpg"
 # Hide from home and other main page

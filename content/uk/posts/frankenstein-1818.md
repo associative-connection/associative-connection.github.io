@@ -9,15 +9,23 @@ lastmod: "2024-05-26"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Horror", "Sci-fi", "Biopunk"]
 # refer to categories
-tags: ["zombie"]
+tags: ["romanticism", "gothic", "science fiction", "folklore", "urban legend", "foaf", "anthropomorphisme", "drugs", "opium", "necro fetishism", "militarism", "humanism", "posthumanism", "zombie", "luigi galvani", "mary shelley"]
 # seires
-series: ["Mary Shelley: mother of biopunk"]
+series: ["Mary Shelley: mother of biopunk", "Pioneers of horror"]
 # Top image for the post
 image: "/uk/images/posts/frankenstein-1831/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Frankenstein
+...
+https://en.wikipedia.org/wiki/Luigi_Galvani
+...
+https://associative-connection.github.io/uk/posts/herbert-west-reanimator-1922
 <!--more-->

@@ -11,9 +11,9 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: []
 # refer to categories
-tags: ["apocalypse trilogy"]
+tags: []
 # seires
-series: ["Horror worlds and writers"]
+series: ["Horror worlds and writers", "Apocalypse Trilogy"]
 # Top image for the post
 image: "/uk/images/posts/in-the-mouth-of-madness-1994/cover.jpg"
 # Hide from home page

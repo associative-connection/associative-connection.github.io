@@ -1,9 +1,9 @@
 ---
-title: "Metzengerstein 1832"
-date: 1832-01-01
+title: "28 Days Later"
+date: 2002-11-01
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-05-26"
+lastmod: "2024-07-15"
 
 # set false when you want the post publish
 draft: false
@@ -13,9 +13,9 @@ categories: []
 # refer to categories
 tags: []
 # seires
-series: ["The generational curse"]
-# Top image for the post
-image: "/uk/images/posts/metzengerstein-1832/cover.jpg"
+series: []
+# Top image for the post: /uk/images/posts/28-days-later/cover.jpg
+image: "/uk/images/posts/28-days-later/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
@@ -23,5 +23,5 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/28_Days_Later
 <!--more-->

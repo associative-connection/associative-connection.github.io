@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Video games", "Action", "Adventure", "Survival horror", "Movies", "Horror", "Dreampunk"]
 # refer to categories
-tags: ["steam", "xbox 360", "xbox one", "xbox series x/s", "playstation 3", "playstation 4", "playstation 5", "wii", "android", "ios", "konami", "narrative", "dying earth", "mystic", "mythology", "folklore", "urban legend", "foaf", "hton", "faith", "gnosis", "madness", "necro fetishism", "zombie", "isolation", "fog", "siren", "keiichirō toyama"]
+tags: ["steam", "xbox 360", "xbox one", "xbox series x/s", "playstation 3", "playstation 4", "playstation 5", "wii", "android", "ios", "konami", "narrative", "dying earth", "mystic", "mythology", "folklore", "urban legend", "foaf", "hton", "faith", "gnosis", "biohazard", "poison", "drugs", "madness", "necro fetishism", "zombie", "isolation", "fog", "siren", "keiichirō toyama"]
 # seires
 series: ["Requiem for a game"]
 # Top image for the post

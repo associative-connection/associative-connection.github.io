@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Video games", "Adventure", "Role-playing", "Simulation", "Horror"]
 # refer to categories
-tags: ["indie", "unity", "steam", "nintendo switch", "darkstone digital", "morgue", "pathologist", "expertise"]
+tags: ["indie", "unity", "steam", "nintendo switch", "darkstone digital", "morgue", "pathologist", "expertise", "woman antagonist"]
 # seires
 series: ["Features of hunting in the world of horror"]
 # Top image for the post

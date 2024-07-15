@@ -9,9 +9,9 @@ lastmod: "2024-07-13"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Movies", "Horror"]
 # refer to categories
-tags: []
+tags: ["mystic", "folklore", "hton", "faith", "gnosis", "madness", "woman antagonist"]
 # seires
 series: ["Horrors about investigations inside monasteries", "Women's monasteries infiltrated by evil"]
 # Top image for the post: /en/images/posts/test/cover.jpg
@@ -23,5 +23,8 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
+https://en.wikipedia.org/wiki/Mother_Joan_of_the_Angels
 https://www.imdb.com/title/tt0055153/
+...
+https://associative-connection.github.io/uk/posts/loudun-possessions
 <!--more-->
