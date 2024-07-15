@@ -9,9 +9,9 @@ lastmod: "2024-07-15"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Movies", "Horror", "Thriller"]
 # refer to categories
-tags: []
+tags: ["mythology", "folklore", "urban legend", "foaf", "hton", "faith", "gnosis", "anthropomorphisme", "pregnancy", "condo", "ira levin", "roman polanski"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg

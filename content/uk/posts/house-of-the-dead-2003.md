@@ -1,12 +1,12 @@
 ---
 title: "House of the Dead 2003"
-date: 2024-07-15T20:13:46+03:00
+date: 2003-02-15
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-07-15T20:13:46+03:00"
+lastmod: "2024-07-15"
 
 # set false when you want the post publish
-draft: true
+draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
 categories: []

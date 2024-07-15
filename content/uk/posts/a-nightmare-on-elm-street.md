@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Comics", "Horror"]
 # refer to categories
-tags: ["madness", "houses of sorrow"]
+tags: ["madness", "houses of sorrow", "hypnocil"]
 # seires
 series: []
 # Top image for the post
