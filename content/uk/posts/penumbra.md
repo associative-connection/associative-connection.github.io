@@ -13,7 +13,7 @@ categories: ["Video games", "Action", "Adventure", "Survival horror", "Stealth",
 # refer to categories
 tags: ["indie", "steam", "frictional games", "narrative", "doors", "science fiction", "mythology", "folklore", "anthropomorphisme", "biohazard", "poison", "madness", "militarism", "zombie", "cannibals", "isolation"]
 # seires
-series: ["Horror about the earth", "It's not what it seems"]
+series: ["Horror about the earth", "It's not what it seems", "Pioneers of horror"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: "/uk/images/posts/penumbra/cover.jpg"
 # Hide from home and other main page

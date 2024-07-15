@@ -11,9 +11,9 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: []
 # refer to categories
-tags: ["apocalypse trilogy"]
+tags: []
 # seires
-series: []
+series: ["Apocalypse Trilogy"]
 # Top image for the post
 image: "/uk/images/posts/prince-of-darkness-1987/cover.jpg"
 # Hide from home page

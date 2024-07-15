@@ -6,7 +6,7 @@ date: 2024-07-15T20:03:27+03:00
 lastmod: "2024-07-15T20:03:27+03:00"
 
 # set false when you want the post publish
-draft: true
+draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
 categories: []
