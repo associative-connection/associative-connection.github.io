@@ -1,21 +1,21 @@
 ---
-title: "Get Out 2017"
-date: 2017-02-24
+title: "Dead by Daylight 2016"
+date: 2024-07-16T20:12:42+03:00
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-05-26"
+lastmod: "2024-07-16T20:12:42+03:00"
 
 # set false when you want the post publish
-draft: false
+draft: true
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Movies", "Horror", "Thriller"]
+categories: []
 # refer to categories
-tags: ["folklore"]
+tags: []
 # seires
 series: []
-# Top image for the post
-image: "/uk/images/posts/get-out-2017/cover.jpg"
+# Top image for the post: /en/images/posts/test/cover.jpg
+image: ""
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
@@ -23,6 +23,5 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-https://en.wikipedia.org/wiki/Get_Out
-https://www.imdb.com/title/tt5052448/
+
 <!--more-->

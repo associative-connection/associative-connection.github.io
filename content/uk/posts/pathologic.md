@@ -9,15 +9,19 @@ lastmod: "2024-05-28"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Video games", "Action", "Adventure", "Role-playing", "Plaguepunk"]
 # refer to categories
-tags: []
+tags: ["indie", "steam", "xbox one", "playstation 4", "open world", "narrative", "roleplay", "mythology", "folklore", "hton", "gnosis", "biohazard", "poison", "necro fetishism", "pandemic", "sand pest", "adaptation", "plague doctor", "isolation"]
 # seires
 series: []
 # Top image for the post
 image: "/uk/images/posts/pathologic/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Pathologic
 <!--more-->

@@ -20,4 +20,5 @@ image: "/uk/images/posts/paranormal-activity/cover.jpg"
 hideFromCenter: false
 ---
 https://en.wikipedia.org/wiki/Paranormal_Activity
+https://www.imdb.com/title/tt1179904/
 <!--more-->
