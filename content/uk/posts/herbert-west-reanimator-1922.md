@@ -13,7 +13,7 @@ categories: ["Books", "Horror", "Sci-fi", "Biopunk"]
 # refer to categories
 tags: ["gothic", "science fiction", "folklore", "biohazard", "necro fetishism", "zombie", "mary shelley", "lovecraft"]
 # seires
-series: ["Mary Shelley: mother of biopunk", "Pioneers of horror"]
+series: ["Mary Shelley: mother of biopunk", "Horrors that are referenced"]
 # Top image for the post
 image: "/uk/images/posts/herbert-west-reanimator-1922/cover.webp"
 # Hide from home and other main page

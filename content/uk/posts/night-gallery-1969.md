@@ -1,9 +1,9 @@
 ---
-title: "Phenomena 1985"
-date: 1985-01-31
+title: "Night Gallery 1969"
+date: 2024-07-16
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-07-15"
+lastmod: "2024-07-16"
 
 # set false when you want the post publish
 draft: false
@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: []
 # refer to categories
-tags: ["dario argento", "goblin"]
+tags: []
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
@@ -23,8 +23,8 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-https://en.wikipedia.org/wiki/Phenomena_(film)
-https://www.imdb.com/title/tt0087909/
+https://en.wikipedia.org/wiki/Night_Gallery
+https://www.imdb.com/title/tt0065327/
 ...
-https://associative-connection.github.io/uk/posts/clock-tower-1995
+https://associative-connection.github.io/uk/posts/pikmans-model-1926
 <!--more-->

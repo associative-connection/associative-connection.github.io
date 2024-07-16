@@ -9,11 +9,11 @@ lastmod: "2024-05-28"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Horror"]
 # refer to categories
-tags: ["pikmans"]
+tags: ["supernatural", "mythology", "folklore", "gallery", "pikmans", "lovecraft"]
 # seires
-series: []
+series: ["Horrors that are referenced"]
 # Top image for the post
 image: "/uk/images/posts/pikmans-model-1926/cover.jpg"
 # Hide from home and other main page
@@ -24,4 +24,6 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Pickman%27s_Model
+...
+https://associative-connection.github.io/uk/posts/night-gallery-1969
 <!--more-->

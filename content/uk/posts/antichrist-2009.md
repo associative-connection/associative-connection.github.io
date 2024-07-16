@@ -13,7 +13,7 @@ categories: ["Movies", "Horror", "Thriller"]
 # refer to categories
 tags: ["faith", "lars von trier"]
 # seires
-series: []
+series: ["Depression trilogy"]
 # Top image for the post
 image: "/uk/images/posts/antichrist-2009/cover.jpg"
 # Hide from home page

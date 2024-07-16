@@ -1,9 +1,9 @@
 ---
-title: "Phenomena 1985"
-date: 1985-01-31
+title: "Melancholia 2011"
+date: 2011-05-18
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-07-15"
+lastmod: "2024-07-16"
 
 # set false when you want the post publish
 draft: false
@@ -11,11 +11,11 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: []
 # refer to categories
-tags: ["dario argento", "goblin"]
+tags: []
 # seires
-series: []
+series: ["Depression trilogy"]
 # Top image for the post: /en/images/posts/test/cover.jpg
-image: ""
+image: "/uk/images/posts/melancholia-2011/cover.png"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
@@ -23,8 +23,5 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-https://en.wikipedia.org/wiki/Phenomena_(film)
-https://www.imdb.com/title/tt0087909/
-...
-https://associative-connection.github.io/uk/posts/clock-tower-1995
+https://en.wikipedia.org/wiki/Melancholia_(2011_film)
 <!--more-->
