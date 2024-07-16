@@ -16,8 +16,12 @@ tags: ["pikmans"]
 series: []
 # Top image for the post
 image: "/uk/images/posts/pikmans-model-1926/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Pickman%27s_Model
 <!--more-->

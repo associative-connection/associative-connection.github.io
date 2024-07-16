@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Horror", "Sci-fi", "Apocalyptic Fiction"]
 # refer to categories
-tags: ["isolation", "antarctica", "expedition", "john carpenter"]
+tags: ["science fiction", "weird fiction", "isolation", "antarctica", "expedition", "lovecraft", "john carpenter"]
 # seires
 series: ["Apocalypse Trilogy"]
 # Top image for the post: /en/images/posts/test/cover.jpg

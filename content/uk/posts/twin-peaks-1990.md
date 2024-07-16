@@ -9,7 +9,7 @@ lastmod: "2024-07-15T23:28:08+03:00"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["TV Series", "Crime"]
+categories: ["TV Series", "Crime", "Dreampunk"]
 # refer to categories
 tags: ["david lynch"]
 # seires

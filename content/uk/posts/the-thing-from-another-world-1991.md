@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Comics", "Horror", "Sci-fi", "Apocalyptic Fiction"]
 # refer to categories
-tags: ["dark horse comics", "folklore", "northern religion", "necro fetishism", "isolation", "antarctica", "expedition", "john carpenter"]
+tags: ["dark horse comics", "science fiction", "folklore", "northern religion", "necro fetishism", "isolation", "antarctica", "expedition", "john carpenter"]
 # seires
 series: ["Projects based on northern folklore"]
 # Top image for the post: /en/images/posts/test/cover.jpg
