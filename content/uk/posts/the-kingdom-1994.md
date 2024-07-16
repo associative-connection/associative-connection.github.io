@@ -9,7 +9,7 @@ lastmod: "2024-07-16"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["TV Series", "Fantasy", "Dark fantasy", "Comedy"]
 # refer to categories
 tags: []
 # seires
