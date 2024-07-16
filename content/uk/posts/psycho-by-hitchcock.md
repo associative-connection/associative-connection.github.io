@@ -13,9 +13,9 @@ categories: ["Movies", "Horror", "Thriller"]
 # refer to categories
 tags: ["mystic", "folklore", "madness", "necro fetishism", "alfred hitchcock"]
 # seires
-series: []
+series: ["Horrors that are referenced"]
 # Top image for the post
-image: "/uk/images/posts/psycho/cover.jpg"
+image: "/uk/images/posts/psycho-by-hitchcock/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
@@ -25,4 +25,6 @@ hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Psycho_(1960_film)
 https://www.imdb.com/title/tt0054215/
+...
+https://associative-connection.github.io/uk/posts/psycho-1959
 <!--more-->

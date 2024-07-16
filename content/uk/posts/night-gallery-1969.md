@@ -1,6 +1,6 @@
 ---
 title: "Night Gallery 1969"
-date: 2024-07-16
+date: 1969-11-08
 
 # format for string: "xxxx-xx-xx"
 lastmod: "2024-07-16"
