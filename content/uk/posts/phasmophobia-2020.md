@@ -9,15 +9,19 @@ lastmod: "2024-05-28"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Video games", "Action", "Cooperative", "Role-playing", "Survival horror", "Puzzle", "Horror"]
 # refer to categories
-tags: ["cooperative game"]
+tags: ["indie", "unity", "steam", "xbox series x/s", "playstation 5", "vr", "kinetic games", "open world", "roleplay", "supernatural", "science fiction", "spec-fic", "mystic", "mythology", "folklore", "urban legend", "foaf", "faith", "spiritism", "houses of sorrow", "bestiary", "isolation"]
 # seires
-series: ["Horrors of the senses"]
+series: ["Features of hunting in the world of horror", "Pioneers of horror", "Horrors that are referenced", "Horrors of the senses", "Sweet Home"]
 # Top image for the post
 image: "/uk/images/posts/phasmophobia-2020/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Phasmophobia_(video_game)
 <!--more-->

@@ -28,4 +28,6 @@ https://en.wikipedia.org/wiki/Clock_Tower_(series)
 https://en.wikipedia.org/wiki/Clock_Tower_(1995_video_game)
 https://en.wikipedia.org/wiki/Clock_Tower_II:_The_Struggle_Within
 https://en.wikipedia.org/wiki/Clock_Tower_3
+...
+https://associative-connection.github.io/uk/posts/phenomena-1985
 <!--more-->

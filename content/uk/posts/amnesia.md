@@ -13,7 +13,7 @@ categories: ["Video games", "Action", "Adventure", "Horror"]
 # refer to categories
 tags: ["indie", "steam", "xbox one", "playstation 4", "nintendo switch", "android", "frictional games", "narrative", "doors"]
 # seires
-series: []
+series: ["Horrors that are referenced"]
 # Top image for the post
 image: "/uk/images/posts/amnesia/cover.jpg"
 # Hide from home and other main page

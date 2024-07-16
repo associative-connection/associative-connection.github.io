@@ -9,13 +9,13 @@ lastmod: "2024-07-15"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Movies", "Horror", "Crime"]
 # refer to categories
-tags: ["dario argento", "goblin"]
+tags: ["supernatural", "mystic", "folklore", "urban legend", "foaf", "gnosis", "companions", "animals", "dario argento", "goblin"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
-image: ""
+image: "/uk/images/posts/phenomena-1985/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page

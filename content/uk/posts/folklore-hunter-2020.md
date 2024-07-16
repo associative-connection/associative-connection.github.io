@@ -1,5 +1,5 @@
 ---
-title: "Folklore Hunter 2020"
+title: "Folklore Hunter (2020)"
 date: 2020-02-24
 
 # format for string: "xxxx-xx-xx"
@@ -9,11 +9,11 @@ lastmod: "2024-07-07"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Video games", "Action", "Cooperative", "Role-playing", "Shooter", "Horror"]
 # refer to categories
-tags: []
+tags: ["indie", "steam", "roleplay", "supernatural", "science fiction", "spec-fic", "mystic", "folklore", "urban legend", "foaf", "bestiary", "liquid donkey games"]
 # seires
-series: []
+series: ["Features of hunting in the world of horror", "Pioneers of horror"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: ""
 # Hide from home and other main page
@@ -23,5 +23,5 @@ hideFromArchives: true
 # Hide from everything but the archive
 hideFromSection: false
 ---
-
+https://store.steampowered.com/app/696220/Folklore_Hunter/
 <!--more-->

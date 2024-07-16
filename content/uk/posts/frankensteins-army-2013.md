@@ -1,5 +1,5 @@
 ---
-title: "Frankenstein's Army 2013"
+title: "Frankenstein's Army (2013)"
 date: 2013-07-26
 
 # format for string: "xxxx-xx-xx"
@@ -9,15 +9,20 @@ lastmod: "2024-05-26"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Biopunk"]
+categories: ["Movies", "Horror", "Sci-fi", "Biopunk", "Советпанк"]
 # refer to categories
-tags: ["zombie"]
+tags: ["art-house", "science fiction", "folklore", "madness", "necro fetishism", "militarism", "humanism", "posthumanism", "zombie"]
 # seires
-series: []
+series: ["Mary Shelley: Mother of Biopunk", "Horrors that are referenced"]
 # Top image for the post
 image: "/uk/images/posts/frankensteins-army-2013/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Frankenstein%27s_Army
+https://www.imdb.com/title/tt1925435/
 <!--more-->
