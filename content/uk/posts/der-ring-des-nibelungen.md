@@ -15,7 +15,7 @@ tags: []
 # seires
 series: []
 # Top image for the post
-image: "/uk/images/posts/der-ring-des-nibelungen/cover.jpg"
+image: "/uk/images/posts/der-ring-des-nibelungen/cover.jpeg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
