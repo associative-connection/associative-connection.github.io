@@ -13,7 +13,7 @@ categories: ["Video games", "Action", "Adventure", "Role-playing", "Plaguepunk"]
 # refer to categories
 tags: ["indie", "steam", "xbox one", "playstation 4", "open world", "narrative", "roleplay", "mythology", "folklore", "hton", "gnosis", "biohazard", "poison", "necro fetishism", "pandemic", "sand pest", "adaptation", "plague doctor", "isolation"]
 # seires
-series: []
+series: ["Understanding Russia"]
 # Top image for the post
 image: "/uk/images/posts/pathologic/cover.jpg"
 # Hide from home and other main page
