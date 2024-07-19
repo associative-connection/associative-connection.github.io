@@ -1,5 +1,5 @@
 ---
-title: "The Babadook 2014"
+title: "The Babadook (2014)"
 date: 2014-01-17
 
 # format for string: "xxxx-xx-xx"

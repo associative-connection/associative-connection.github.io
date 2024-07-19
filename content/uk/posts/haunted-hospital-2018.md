@@ -1,5 +1,5 @@
 ---
-title: "Heilstätten 2018"
+title: "Heilstätten (2018)"
 date: 2018-02-22
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: []
 image: "/uk/images/posts/haunted-hospital-2018/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 
 <!--more-->
