@@ -1,6 +1,6 @@
 ---
 title: "The Fly (1957)"
-date: 2024-07-19
+date: 1957-01-01
 
 # format for string: "xxxx-xx-xx"
 lastmod: "2024-07-19"
@@ -9,9 +9,9 @@ lastmod: "2024-07-19"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Movies", "Horror", "Sci-fi"]
 # refer to categories
-tags: []
+tags: ["science fiction"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
@@ -23,5 +23,14 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/The_Fly_(Langelaan)
+...
+https://en.wikipedia.org/wiki/The_Fly_(1958_film)
+https://www.imdb.com/title/tt0051622/
+...
+https://en.wikipedia.org/wiki/The_Fly_(1986_film)
+https://www.imdb.com/title/tt0091064/
+...
+https://en.wikipedia.org/wiki/The_Fly_II
+https://www.imdb.com/title/tt0097368/
 <!--more-->

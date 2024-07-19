@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Horror", "Thriller", "Crime", "Fantasy", "Dark fantasy"]
 # refer to categories
-tags: ["mystic", "madness", "houses of sorrow"]
+tags: ["mystic", "madness", "houses of sorrow", "marilyn manson",]
 # seires
 series: ["Sweet Home"]
 # Top image for the post: /en/images/posts/test/cover.jpg

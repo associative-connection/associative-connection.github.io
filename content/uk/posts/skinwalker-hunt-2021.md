@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Video games", "Action", "Adventure", "Shooter", "Simulation", "Horror"]
 # refer to categories
-tags: ["indie", "steam", "folklore", "urban legend", "foaf", "bestiary", "wendigo"]
+tags: ["indie", "steam", "folklore", "urban legend", "foaf", "bestiary", "wendigo", "gua"]
 # seires
 series: ["Features of hunting in the world of horror"]
 # Top image for the post

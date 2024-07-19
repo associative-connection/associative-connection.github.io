@@ -13,7 +13,7 @@ categories: ["Movies", "Short film", "TV Series", "Video games", "Action", "Adve
 # refer to categories
 tags: ["steam", "xbox one", "xbox series x/s", "playstation 4", "playstation 5", "nintendo switch", "android", "ios", "a24", "folklore", "urban legend", "foaf", "madness", "zombie", "jason voorhees", "crystal lake", "victor miller"]
 # seires
-series: []
+series: ["Horrors that are referenced"]
 # Top image for the post
 image: "/uk/images/posts/friday-the-13th/cover.jpg"
 # Hide from home and other main page

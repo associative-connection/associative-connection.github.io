@@ -1,5 +1,5 @@
 ---
-title: "Ghost House 2016"
+title: "Ghost House (2016)"
 date: 2016-01-01
 
 # format for string: "xxxx-xx-xx"

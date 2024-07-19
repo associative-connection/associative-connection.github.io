@@ -1,5 +1,5 @@
 ---
-title: "Evenings on a Farm Near Dikanka 1831"
+title: "Evenings on a Farm Near Dikanka (1831)"
 date: 1831-01-01
 
 # format for string: "xxxx-xx-xx"

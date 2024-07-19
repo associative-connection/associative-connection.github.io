@@ -1,6 +1,6 @@
 ---
-title: "Hagazussa 2017"
-date: 2017-05-17
+title: "Hagazussa (2017)"
+date: 2017-09-22
 
 # format for string: "xxxx-xx-xx"
 lastmod: "2024-05-26"
@@ -9,15 +9,20 @@ lastmod: "2024-05-26"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Movies", "Horror"]
 # refer to categories
-tags: ["drugs"]
+tags: ["mystic", "mythology", "folklore", "northern religion", "hton", "faith", "gnosis", "poison", "drugs", "mushrooms", "madness", "militarism", "humanism"]
 # seires
-series: []
+series: ["Projects based on northern myths", "Projects based on northern folklore", "Horror about drugs"]
 # Top image for the post
 image: "/uk/images/posts/hagazussa-2017/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Hagazussa
+https://www.imdb.com/title/tt7323600/
 <!--more-->

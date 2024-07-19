@@ -15,7 +15,7 @@ tags: ["mythology", "folklore", "urban legend", "foaf", "faith", "necro fetishis
 # seires
 series: ["Every Satanist's Dream", "Horrors that are referenced"]
 # Top image for the post: /en/images/posts/test/cover.jpg
-image: "/uk/images/posts/test/cover.jpg"
+image: "/uk/images/posts/hotel-inferno-2013/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page

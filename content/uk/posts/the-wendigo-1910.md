@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Books", "Horror", "Sci-fi"]
 # refer to categories
-tags: ["supernatural", "spec-fic", "weird fiction", "folklore", "bestiary", "algernon blackwood"]
+tags: ["supernatural", "spec-fic", "weird fiction", "folklore", "bestiary", "wendigo", "algernon blackwood"]
 # seires
 series: []
 # Top image for the post: not image

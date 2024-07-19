@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: []
 # refer to categories
-tags: ["j-horror", "giger"]
+tags: ["j-horror", "body horror", "giger"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg

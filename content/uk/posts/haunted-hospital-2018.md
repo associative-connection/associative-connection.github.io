@@ -9,11 +9,11 @@ lastmod: "2024-06-16"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Movies", "Horror", "Thriller"]
 # refer to categories
-tags: []
+tags: ["mystic", "madness", "houses of sorrow", "lobotomy", "hospital", "blogger"]
 # seires
-series: []
+series: ["Insanity Forever", "web.horror"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: "/uk/images/posts/haunted-hospital-2018/cover.jpg"
 # Hide from home and other main page
@@ -23,5 +23,6 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-
+https://de.wikipedia.org/wiki/Heilst%C3%A4tten
+https://www.imdb.com/title/tt7214470/
 <!--more-->

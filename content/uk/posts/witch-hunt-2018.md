@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Video games", "Action", "Adventure", "Horror"]
 # refer to categories
-tags: ["indie", "steam", "folklore", "goats", "black phil", "Gua"]
+tags: ["indie", "steam", "folklore", "goats", "black phil", "gua"]
 # seires
 series: ["Features of hunting in the world of horror"]
 # Top image for the post

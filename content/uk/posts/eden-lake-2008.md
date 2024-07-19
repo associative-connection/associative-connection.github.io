@@ -1,15 +1,15 @@
 ---
-title: "Fish Night (2019)"
-date: 2019-07-18
+title: "Eden Lake (2008)"
+date: 2008-08-12
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-07-18T18:11:05+03:00"
+lastmod: "2024-07-19"
 
 # set false when you want the post publish
-draft: true
+draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Movies", "Horror", "Thriller"]
 # refer to categories
 tags: []
 # seires
@@ -23,5 +23,6 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Eden_Lake
+https://www.imdb.com/title/tt1020530/
 <!--more-->

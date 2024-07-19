@@ -13,7 +13,7 @@ categories: ["Movies", "Horror", "Sci-fi", "Biopunk", "Советпанк"]
 # refer to categories
 tags: ["art-house", "science fiction", "folklore", "madness", "necro fetishism", "militarism", "humanism", "posthumanism", "zombie"]
 # seires
-series: ["Mary Shelley: Mother of Biopunk", "Horrors that are referenced"]
+series: ["Mary Shelley: Mother of Biopunk", "Horrors that are referenced", "Horror about world wars"]
 # Top image for the post
 image: "/uk/images/posts/frankensteins-army-2013/cover.jpg"
 # Hide from home and other main page
