@@ -1,5 +1,5 @@
 ---
-title: "Hidden 2015"
+title: "Hidden (2015)"
 date: 2015-09-15
 
 # format for string: "xxxx-xx-xx"

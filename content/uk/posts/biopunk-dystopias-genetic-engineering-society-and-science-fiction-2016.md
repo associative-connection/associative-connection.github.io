@@ -9,7 +9,7 @@ lastmod: "2024-07-15"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Books", "Horror", "Sci-fi", "Apocalyptic Fiction", "Post-Apocalyptic Fiction", "Biopunk"]
+categories: ["Historical", "Books", "Horror", "Sci-fi", "Apocalyptic Fiction", "Post-Apocalyptic Fiction", "Biopunk"]
 # refer to categories
 tags: ["romanticism", "supernatural", "modernism", "science fiction", "dying earth", "mystic", "mythology", "folklore", "urban legend", "foaf", "hton", "faith", "gnosis", "biohazard", "poison", "necro fetishism", "militarism", "humanism", "posthumanism", "pandemic", "zombie", "lars schmeink"]
 # seires

@@ -11,9 +11,9 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Video games", "Horror"]
 # refer to categories
-tags: ["steam", "xbox one", "xbox series x/s", "playstation 4", "playStation 5", "nintendo switch", "madmind studio", "action-adventure", "necro fetishism", "faith"]
+tags: ["steam", "xbox one", "xbox series x/s", "playstation 4", "playStation 5", "nintendo switch", "madmind studio", "action-adventure", "mythology", "folklore", "urban legend", "foaf", "faith", "necro fetishism"]
 # seires
-series: []
+series: ["Every Satanist's Dream"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: "/uk/images/posts/succubus-2021/cover.jpeg"
 # Hide from home and other main page

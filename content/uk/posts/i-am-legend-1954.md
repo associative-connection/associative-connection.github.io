@@ -1,5 +1,5 @@
 ---
-title: "I Am Legend 1954"
+title: "I Am Legend (1954)"
 date: 1954-08-07
 
 # format for string: "xxxx-xx-xx"

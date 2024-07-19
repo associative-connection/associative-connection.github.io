@@ -1,5 +1,5 @@
 ---
-title: "Matka Joanna Od Aniolow 1961"
+title: "Matka Joanna Od Aniolow (1961)"
 date: 1961-02-09
 
 # format for string: "xxxx-xx-xx"

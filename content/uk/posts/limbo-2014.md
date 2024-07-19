@@ -1,6 +1,6 @@
 ---
-title: "Limbo 2014"
-date: 2015-09-24
+title: "Limbo (2014)"
+date: 2014-01-01
 
 # format for string: "xxxx-xx-xx"
 lastmod: "2024-05-26"
@@ -11,13 +11,17 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: []
 # refer to categories
-tags: []
+tags: ["folklore", "vampiry"]
 # seires
 series: ["Not the most popular work about vampires"]
 # Top image for the post
 image: "/uk/images/posts/limbo-2014/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://www.imdb.com/title/tt3967248/
 <!--more-->

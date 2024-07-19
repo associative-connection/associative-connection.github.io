@@ -1,5 +1,5 @@
 ---
-title: "Mirgorod 1835"
+title: "Mirgorod (1835)"
 date: 1835-02-01
 
 # format for string: "xxxx-xx-xx"
@@ -13,7 +13,7 @@ categories: ["Books", "Horror"]
 # refer to categories
 tags: ["hton", "nikolai gogol"]
 # seires
-series: []
+series: ["Projects based on slavic folklore"]
 # Top image for the post - not image
 image: ""
 # Hide from home and other main page

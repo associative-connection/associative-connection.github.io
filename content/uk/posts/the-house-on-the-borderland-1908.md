@@ -1,5 +1,5 @@
 ---
-title: "The House on the Borderland 1908"
+title: "The House on the Borderland (1908)"
 date: 1908-01-01
 
 # format for string: "xxxx-xx-xx"

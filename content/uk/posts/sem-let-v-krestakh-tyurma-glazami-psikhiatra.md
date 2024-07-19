@@ -9,7 +9,7 @@ lastmod: "2024-05-30"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Books"]
+categories: ["Historical", "Books"]
 # refer to categories
 tags: ["folklore", "madness"]
 # seires

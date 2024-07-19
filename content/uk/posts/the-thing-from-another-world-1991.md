@@ -1,5 +1,5 @@
 ---
-title: "The Thing From Another World 1991"
+title: "The Thing From Another World (1991)"
 date: 1991-12-01
 
 # format for string: "xxxx-xx-xx"

@@ -1,5 +1,5 @@
 ---
-title: "Mystery of the Wax Museum 1933"
+title: "Mystery of the Wax Museum (1933)"
 date: 1933-02-18
 
 # format for string: "xxxx-xx-xx"
@@ -9,11 +9,11 @@ lastmod: "2024-06-30"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Horror", "Thriller"]
+categories: ["Horror", "Thriller", "Crime", "Detective"]
 # refer to categories
 tags: []
 # seires
-series: []
+series: ["Horrors that are referenced"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: "/uk/images/posts/mystery-of-the-wax-museum-1933/cover.jpg"
 # Hide from home and other main page
@@ -27,4 +27,10 @@ https://en.wikipedia.org/wiki/Mystery_of_the_Wax_Museum
 https://www.imdb.com/title/tt0024368/
 ...
 https://en.wikipedia.org/wiki/House_of_Wax_(1953_film)
+https://www.imdb.com/title/tt0045888/
+...
+https://en.wikipedia.org/wiki/House_of_Wax_(2005_film)
+https://www.imdb.com/title/tt0397065/
+...
+https://associative-connection.github.io/en/posts/gravity-falls (Headhunters, 2012-06-30)
 <!--more-->

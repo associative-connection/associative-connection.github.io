@@ -1,5 +1,5 @@
 ---
-title: "Who Goes There 1938"
+title: "Who Goes There? (1938)"
 date: 1938-08-01
 
 # format for string: "xxxx-xx-xx"
@@ -25,5 +25,8 @@ hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Who_Goes_There%3F
 ...
-https://associative-connection.github.io/uk/posts/the-thing-1982/
+https://associative-connection.github.io/uk/posts/the-thing-1982
+...
+https://en.wikipedia.org/wiki/The_Thing_from_Another_World
+https://www.imdb.com/title/tt0044121/
 <!--more-->

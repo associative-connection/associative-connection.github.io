@@ -1,5 +1,5 @@
 ---
-title: "Loudun possessions 1634"
+title: "Des possédées de Loudun | Loudun possessions (1634)"
 date: 1634-01-01
 
 # format for string: "xxxx-xx-xx"
@@ -9,7 +9,7 @@ lastmod: "2024-05-26"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Books"]
+categories: ["Historical"]
 # refer to categories
 tags: ["mythology", "folklore", "urban legend", "foaf", "hton", "faith", "gnosis", "madness"]
 # seires
@@ -25,5 +25,5 @@ hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Loudun_possessions
 ...
-https://associative-connection.github.io/uk/posts/matka-joanna-od-aniolow-1961
+https://associative-connection.github.io/uk/posts/matka-joanna-od-aniolow-1961/
 <!--more-->

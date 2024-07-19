@@ -1,5 +1,5 @@
 ---
-title: "Herbert West Reanimator 1922"
+title: "Herbert West Reanimator (1922)"
 date: 1922-06-01
 
 # format for string: "xxxx-xx-xx"

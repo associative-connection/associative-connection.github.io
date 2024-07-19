@@ -13,7 +13,7 @@ categories: ["Books", "Movies", "Horror", "Thriller"]
 # refer to categories
 tags: ["mythology", "folklore", "urban legend", "foaf", "hton", "faith", "gnosis", "anthropomorphisme", "pregnancy", "condo", "ira levin", "roman polanski"]
 # seires
-series: []
+series: ["Hush little baby", "Horrors that are referenced"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: "/uk/images/posts/rosemarys-baby/cover.jpg"
 # Hide from home and other main page

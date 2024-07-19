@@ -1,5 +1,5 @@
 ---
-title: "King Stakhs Wild Hunt 1964"
+title: "King Stakhs Wild Hunt (1964)"
 date: 1964-01-01
 
 # format for string: "xxxx-xx-xx"

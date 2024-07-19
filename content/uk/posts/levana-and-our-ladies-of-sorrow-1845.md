@@ -1,5 +1,5 @@
 ---
-title: "Levana and Our Ladies of Sorrow 1845"
+title: "Levana and Our Ladies of Sorrow (1845)"
 date: 1845-01-01
 
 # format for string: "xxxx-xx-xx"

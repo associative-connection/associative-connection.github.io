@@ -1,5 +1,5 @@
 ---
-title: "Night of the Living Dead 1968"
+title: "Night of the Living Dead (1968)"
 date: 1968-10-01
 
 # format for string: "xxxx-xx-xx"
@@ -13,7 +13,7 @@ categories: ["Movies", "Horror", "Thriller"]
 # refer to categories
 tags: ["science fiction", "folklore", "biohazard", "pandemic", "zombie", "cannibals", "isolation", "george romero"]
 # seires
-series: []
+series: ["Horrors that are referenced"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: "/uk/images/posts/night-of-the-living-dead-1968/cover.jpg"
 # Hide from home and other main page

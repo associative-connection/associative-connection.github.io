@@ -1,5 +1,5 @@
 ---
-title: "The Nun 2018"
+title: "The Nun (2018)"
 date: 2018-09-07
 
 # format for string: "xxxx-xx-xx"
@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Horror", "Thriller"]
 # refer to categories
-tags: ["mystic", "faith"]
+tags: ["mystic", "faith", "james wan"]
 # seires
 series: ["Horrors about investigations inside monasteries", "Women's monasteries infiltrated by evil", "The Conjuring Universe"]
 # Top image for the post

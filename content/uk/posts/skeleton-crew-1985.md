@@ -13,7 +13,7 @@ categories: ["Books", "Horror", "Sci-fi"]
 # refer to categories
 tags: ["ghost story", "science fiction", "folklore", "urban legend", "stephen king"]
 # seires
-series: []
+series: ["Horrors that are referenced"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: "/uk/images/posts/skeleton-crew-1985/cover.jpg"
 # Hide from home and other main page
@@ -25,6 +25,9 @@ hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Skeleton_Crew_(short_story_collection)
 ...
-https://associative-connection.github.io/posts/creepshow/
-https://associative-connection.github.io/posts/masters-of-horror-2005/
+https://associative-connection.github.io/uk/posts/the-mist-1980/
+...
+https://associative-connection.github.io/uk/posts/the-twilight-zone/ ( The Twilight Zone 1985 )
+https://associative-connection.github.io/uk/posts/creepshow/
+https://associative-connection.github.io/uk/posts/masters-of-horror-2005/
 <!--more-->

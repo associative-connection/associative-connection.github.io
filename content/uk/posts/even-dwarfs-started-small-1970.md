@@ -1,5 +1,5 @@
 ---
-title: "Auch Zwerge haben klein angefangen 1970"
+title: "Auch Zwerge haben klein angefangen (1970)"
 date: 1970-05-15
 
 # format for string: "xxxx-xx-xx"
@@ -9,7 +9,7 @@ lastmod: "2024-06-09"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Historical"]
 # refer to categories
 tags: []
 # seires

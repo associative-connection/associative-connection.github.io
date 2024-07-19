@@ -1,5 +1,5 @@
 ---
-title: "Metzengerstein 1832"
+title: "Metzengerstein (1832)"
 date: 1832-01-01
 
 # format for string: "xxxx-xx-xx"
@@ -9,9 +9,9 @@ lastmod: "2024-05-26"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Horror"]
 # refer to categories
-tags: []
+tags: ["edgar allan poe"]
 # seires
 series: ["The generational curse"]
 # Top image for the post
@@ -23,5 +23,5 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Metzengerstein
 <!--more-->

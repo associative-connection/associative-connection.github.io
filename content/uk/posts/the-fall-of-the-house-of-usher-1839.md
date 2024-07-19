@@ -24,4 +24,7 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/The_Fall_of_the_House_of_Usher
+...
+https://en.wikipedia.org/wiki/The_Fall_of_the_House_of_Usher_(1928_French_film)
+https://www.imdb.com/title/tt0018770/
 <!--more-->

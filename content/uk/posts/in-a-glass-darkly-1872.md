@@ -1,5 +1,5 @@
 ---
-title: "In a Glass Darkly 1872"
+title: "In a Glass Darkly (1872)"
 date: 1872-01-01
 
 # format for string: "xxxx-xx-xx"

@@ -1,5 +1,5 @@
 ---
-title: "The Thing 1982"
+title: "The Thing (1982)"
 date: 1982-06-25
 
 # format for string: "xxxx-xx-xx"
@@ -25,6 +25,7 @@ hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/The_Thing_(1982_film)
 ...
-https://associative-connection.github.io/uk/posts/the-thing-from-another-world-1991/
-https://associative-connection.github.io/uk/posts/who-goes-there-1938/
+https://associative-connection.github.io/uk/posts/the-thing-from-another-world-1991 ( comic )
+...
+https://associative-connection.github.io/uk/posts/who-goes-there-1938
 <!--more-->

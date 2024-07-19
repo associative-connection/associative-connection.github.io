@@ -1,5 +1,5 @@
 ---
-title: "Night Gallery 1969"
+title: "Night Gallery (1969)"
 date: 1969-11-08
 
 # format for string: "xxxx-xx-xx"
@@ -9,7 +9,7 @@ lastmod: "2024-07-16"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["TV Series", "Horror", "Fantasy", "Dark fantasy"]
 # refer to categories
 tags: []
 # seires
