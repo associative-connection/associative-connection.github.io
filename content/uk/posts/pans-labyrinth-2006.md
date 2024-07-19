@@ -1,21 +1,21 @@
 ---
-title: "Aterrados (2017)"
-date: 2017-10-01
+title: "Pans Labyrinth 2006"
+date: 2024-07-19T03:58:10+03:00
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-05-26"
+lastmod: "2024-07-19T03:58:10+03:00"
 
 # set false when you want the post publish
-draft: false
+draft: true
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Movies", "Horror"]
+categories: []
 # refer to categories
-tags: ["mystic", "biohazard", "poison", "zombie", "boy"]
+tags: []
 # seires
-series: ["It's not what it seems"]
-# Top image for the post
-image: "/uk/images/posts/aterrados-2017/cover.jpg"
+series: []
+# Top image for the post: /en/images/posts/test/cover.jpg
+image: ""
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
@@ -23,6 +23,5 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-https://en.wikipedia.org/wiki/Terrified_(film)
-https://www.imdb.com/title/tt7549892/
+
 <!--more-->

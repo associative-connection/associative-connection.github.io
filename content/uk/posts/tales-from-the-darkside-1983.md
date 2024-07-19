@@ -1,5 +1,5 @@
 ---
-title: "Tales From the Darkside 1983"
+title: "Tales From the Darkside (1983)"
 date: 1983-10-29
 
 # format for string: "xxxx-xx-xx"
