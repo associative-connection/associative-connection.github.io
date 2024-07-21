@@ -21,7 +21,7 @@ window.onload = function() {
 function selectBiopunk() {
 	TagCanvas.Start('root_biopunk', 'associative_biopunk', {
 		activeAudio: true, 
-		centreImage: './img/icon/biohazard.png', 
+		centreImage: '/img/main/icon/biohazard.png', 
 		dragControl: true, 
 		initial: [0.200, 0.000], 
 		lock: 'y', 
@@ -34,7 +34,7 @@ function selectBiopunk() {
 function selectCulture() {
 	TagCanvas.Start('root_culture', 'associative_culture', {
 		activeAudio: true, 
-		centreImage: './img/icon/culture.png', 
+		centreImage: '/img/main/icon/culture.png', 
 		dragControl: true, 
 		initial: [0.200, 0.000], 
 		shape: "vring(0.5)", 
@@ -47,7 +47,7 @@ function selectCulture() {
 function selectDreams() {
 	TagCanvas.Start('root_dreams', 'associative_dreams', {
 		activeAudio: true, 
-		centreImage: './img/icon/arkham.png', 
+		centreImage: '/img/main/icon/arkham.png', 
 		dragControl: true, 
 		initial: [0.200, 0.000], 
 		shape: "hcylinder", 
