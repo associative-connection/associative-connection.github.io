@@ -1,5 +1,5 @@
 ---
-title: "The Deep House 2021"
+title: "The Deep House (2021)"
 date: 2021-06-30
 
 # format for string: "xxxx-xx-xx"
@@ -13,7 +13,7 @@ categories: ["Movies", "Horror"]
 # refer to categories
 tags: ["mystic", "diving"]
 # seires
-series: ["Sweet Home"]
+series: ["Sweet Home", "Horror Underwater"]
 # Top image for the post: /en/images/posts/test/cover.jpg
 image: "/uk/images/posts/the-deep-house-2021/cover.jpg"
 # Hide from home and other main page
