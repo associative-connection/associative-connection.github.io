@@ -9,7 +9,7 @@ lastmod: "2024-05-26"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Books", "Horror"]
+categories: ["Books", "Movies", "Horror"]
 # refer to categories
 tags: ["gothic", "vampiry", "recurring character", "bram stoker"]
 # seires
@@ -24,4 +24,8 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Dracula
+
+...
+
+https://en.wikipedia.org/wiki/Nosferatu_(1922_film)
 <!--more-->

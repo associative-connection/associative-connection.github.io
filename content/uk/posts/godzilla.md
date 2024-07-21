@@ -1,9 +1,9 @@
 ---
-title: "Tetsuo: The Iron Man (1989)"
-date: 1989-07-18
+title: "Godzilla"
+date: 1954-10-27
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-07-18"
+lastmod: "2024-07-21"
 
 # set false when you want the post publish
 draft: false
@@ -11,11 +11,11 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Horror", "Sci-fi"]
 # refer to categories
-tags: ["body horror", "j-horror", "body horror", "science fiction", "necro fetishism", "giger", "shinya tsukamoto"]
+tags: ["militarism", "bestiary", "kaiju"]
 # seires
-series: ["Mary Shelley: Mother of Biopunk"]
+series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
-image: "/uk/images/posts/tetsuo-the-iron-man-1989/cover.jpg"
+image: "/uk/images/posts/godzilla/cover.png"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
@@ -23,7 +23,19 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-https://en.wikipedia.org/wiki/Tetsuo:_The_Iron_Man
+https://en.wikipedia.org/wiki/Godzilla_(franchise)
 
-https://www.imdb.com/title/tt0096251/
+...
+
+https://x.com/godzilla_jp
+
+...
+
+https://en.wikipedia.org/wiki/Godzilla_(1954_film)
+
+https://www.imdb.com/title/tt0047034/
+
+...
+
+https://en.wikipedia.org/wiki/Kaiju
 <!--more-->

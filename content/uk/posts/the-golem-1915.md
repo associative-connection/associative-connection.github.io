@@ -1,21 +1,21 @@
 ---
-title: "Tetsuo: The Iron Man (1989)"
-date: 1989-07-18
+title: "Der Golem | The Golem (1914)"
+date: 1914-01-01
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-07-18"
+lastmod: "2024-07-21"
 
 # set false when you want the post publish
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Movies", "Horror", "Sci-fi"]
+categories: ["Movies", "Horror"]
 # refer to categories
-tags: ["body horror", "j-horror", "body horror", "science fiction", "necro fetishism", "giger", "shinya tsukamoto"]
+tags: ["mythology", "kabbalah"]
 # seires
-series: ["Mary Shelley: Mother of Biopunk"]
+series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
-image: "/uk/images/posts/tetsuo-the-iron-man-1989/cover.jpg"
+image: "/uk/images/posts/the-golem-1914/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
@@ -23,7 +23,11 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-https://en.wikipedia.org/wiki/Tetsuo:_The_Iron_Man
+https://en.wikipedia.org/wiki/The_Golem_(1915_film)
 
-https://www.imdb.com/title/tt0096251/
+https://www.imdb.com/title/tt0004026/
+
+...
+
+https://en.wikipedia.org/wiki/Golem#The_classic_narrative:_The_Golem_of_Prague
 <!--more-->

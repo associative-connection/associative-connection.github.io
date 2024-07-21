@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Horror", "Sci-fi"]
 # refer to categories
-tags: ["j-horror", "science fiction", "mystic", "folklore", "urban legend"]
+tags: ["j-horror", "science fiction", "mystic", "folklore", "urban legend", "kiyoshi kurosawa"]
 # seires
 series: []
 # Top image for the post

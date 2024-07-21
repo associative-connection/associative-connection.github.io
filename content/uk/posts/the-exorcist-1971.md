@@ -9,13 +9,13 @@ lastmod: "2024-07-16"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Horror"]
 # refer to categories
-tags: []
+tags: ["faith"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
-image: "/uk/images/posts/test/cover.jpg"
+image: "/uk/images/posts/the-exorcist-1971/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
@@ -24,4 +24,12 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/The_Exorcist_(novel)
+
+...
+
+https://associative-connection.github.io/uk/posts/the-exorcist-1973
+
+...
+
+https://en.wikipedia.org/wiki/The_Exorcist_(franchise)
 <!--more-->
