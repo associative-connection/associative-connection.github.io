@@ -6,7 +6,7 @@
     <body{{ if eq .Kind "home" }} class="loading"{{ end }}>
 
         {{ if eq .Kind "home" }}
-            {{- partial "header/home.html" . -}}
+            {{- partial "home.html" . -}}
         {{ else }}
         <div class="base_width p_relative wrap"> <div id="overlay" class="base_width p_fixed"></div>
 
