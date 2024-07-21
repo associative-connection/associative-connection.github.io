@@ -8,5 +8,8 @@
     {{ template "_internal/twitter_cards.html" . }}
     <link rel="canonical" href="{{ .Permalink }}" />
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    {{- partial "head/hugr-init.html" . -}}
+    {{ define "main" }}
+    {{ else }}
+        {{- partial "head/hugr-init.html" . -}}
+    {{ end }}
 </head>
