@@ -1,5 +1,5 @@
 ---
-title: "The Green Elephant 1999"
+title: "The Green Elephant (1999)"
 date: 1999-01-01
 
 # format for string: "xxxx-xx-xx"
@@ -13,7 +13,7 @@ categories: ["Movies", "Horror", "Thriller", "Comedy"]
 # refer to categories
 tags: ["art-house", "folklore", "poison", "drugs", "madness", "militarism", "isolation"]
 # seires
-series: ["The Overrated"]
+series: ["The Overrated", "Horror about drugs"]
 # Top image for the post
 image: "/uk/images/posts/the-green-elephant-1999/cover.jpg"
 # Hide from home and other main page
