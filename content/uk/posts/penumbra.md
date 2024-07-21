@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Video games", "Action", "Adventure", "Survival horror", "Stealth", "Puzzle", "Horror", "Sci-fi"]
 # refer to categories
-tags: ["indie", "steam", "frictional games", "narrative", "doors", "science fiction", "mythology", "folklore", "anthropomorphisme", "biohazard", "poison", "madness", "militarism", "zombie", "cannibals", "isolation"]
+tags: ["indie", "steam", "frictional games", "narrative", "doors", "science fiction", "mythology", "folklore", "anthropomorphisme", "biohazard", "poison", "madness", "industry", "militarism", "zombie", "cannibals", "isolation"]
 # seires
 series: ["Horror about the earth", "It's not what it seems", "Pioneers of horror"]
 # Top image for the post: /en/images/posts/test/cover.jpg

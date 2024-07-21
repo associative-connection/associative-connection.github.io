@@ -11,9 +11,9 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Video games", "Action", "Adventure", "Horror"]
 # refer to categories
-tags: ["steam", "xbox series x/s", "playstation 5"]
+tags: ["steam", "xbox series x/s", "playstation 5", "militarism"]
 # seires
-series: ["Horror about the earth"]
+series: ["Horror about the earth", "Horror about world wars"]
 # Top image for the post
 image: "/uk/images/posts/ad-infinitum-2023/cover.jpg"
 # Hide from home and other main page

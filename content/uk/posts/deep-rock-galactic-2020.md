@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Video games", "Action", "Adventure", "Cooperative", "Shooter", "FPS", "Fantasy"]
 # refer to categories
-tags: ["ghost ship games"]
+tags: ["ghost ship games", "industry"]
 # seires
 series: ["Horror about the earth"]
 # Top image for the post

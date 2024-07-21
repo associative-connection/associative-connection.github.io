@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Horror"]
 # refer to categories
-tags: ["adventure", "folklore", "militarism"]
+tags: ["adventure", "folklore", "industry", "militarism"]
 # seires
 series: ["Horror about the earth"]
 # Top image for the post: /en/images/posts/test/cover.jpg
