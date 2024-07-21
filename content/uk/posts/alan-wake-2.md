@@ -23,6 +23,7 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-https://associative-connection.github.io/uk/posts/alan-wake/
 https://en.wikipedia.org/wiki/Alan_Wake_2
+...
+https://associative-connection.github.io/uk/posts/alan-wake
 <!--more-->

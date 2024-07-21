@@ -1,5 +1,5 @@
 ---
-title: "Call of Cthulhu: Shadow of the Crystal Palace 2019"
+title: "Call of Cthulhu: Shadow of the Crystal Palace (2019)"
 date: 2019-07-31
 
 # format for string: "xxxx-xx-xx"
@@ -19,7 +19,7 @@ image: ""
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
-hideFromArchives: true
+hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---

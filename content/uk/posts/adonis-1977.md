@@ -1,5 +1,5 @@
 ---
-title: "Adonis 1977"
+title: "Adonis (1977)"
 date: 1977-01-01
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["The Overrated"]
 image: "/uk/images/posts/adonis-1977/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://www.imdb.com/title/tt0250191/
 <!--more-->

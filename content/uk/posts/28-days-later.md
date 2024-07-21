@@ -9,9 +9,9 @@ lastmod: "2024-07-15"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Movies", "Comics", "Horror", "Sci-fi", "Post-Apocalyptic Fiction"]
 # refer to categories
-tags: []
+tags: ["science fiction", "folklore", "biohazard", "madness", "militarism", "humanism", "posthumanism", "pandemic", "zombie", "adaptation"]
 # seires
 series: []
 # Top image for the post: /uk/images/posts/28-days-later/cover.jpg
@@ -24,4 +24,10 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/28_Days_Later
+https://www.imdb.com/title/tt0289043/
+...
+https://en.wikipedia.org/wiki/28_Days_Later:_The_Aftermath ( graphic novel )
+...
+https://en.wikipedia.org/wiki/28_Weeks_Later
+https://www.imdb.com/title/tt0463854/
 <!--more-->

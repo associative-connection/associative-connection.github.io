@@ -1,5 +1,5 @@
 ---
-title: "At the Mountains of Madness 1936"
+title: "At the Mountains of Madness (1936)"
 date: 1936-02-01
 
 # format for string: "xxxx-xx-xx"
@@ -16,9 +16,12 @@ tags: ["spec-fic", "weird fiction", "hton", "madness", "isolation", "antarctica"
 series: []
 # Top image for the post
 image: "/uk/images/posts/at-the-mountains-of-madness-1936/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
-hideFromArchives: true
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/At_the_Mountains_of_Madness
 <!--more-->

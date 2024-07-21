@@ -16,8 +16,12 @@ tags: ["roleplay", "lovecraft"]
 series: ["Lovecraft compilation"]
 # Top image for the post
 image: "/uk/images/posts/arkham-horror/cover.webp"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game
 <!--more-->

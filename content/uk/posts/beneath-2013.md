@@ -1,5 +1,5 @@
 ---
-title: "Beneath 2013"
+title: "Beneath (2013)"
 date: 2013-07-19
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["Horror about the earth"]
 image: "/uk/images/posts/beneath-2013/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://www.imdb.com/title/tt2991296/
 <!--more-->

@@ -11,15 +11,22 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Video games", "Music", "Horror", "Sci-fi"]
 # refer to categories
-tags: ["giger"]
+tags: ["science fiction", "giger"]
 # seires
 series: []
 # Top image for the post
 image: "/uk/images/posts/alien/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Alien_(franchise)
+...
+https://en.wikipedia.org/wiki/Alien_(film)
 https://www.imdb.com/title/tt0078748/
+...
 https://en.wikipedia.org/wiki/Alien:_Isolation
 <!--more-->

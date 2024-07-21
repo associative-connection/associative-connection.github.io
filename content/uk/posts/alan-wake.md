@@ -16,9 +16,14 @@ tags: ["steam", "xbox 360", "xbox one", "xbox series x/s", "playstation 4", "pla
 series: ["Horror worlds and writers"]
 # Top image for the post
 image: "/uk/images/posts/alan-wake/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-https://associative-connection.github.io/uk/posts/alan-wake-2/
 https://en.wikipedia.org/wiki/Alan_Wake
+...
+https://associative-connection.github.io/uk/posts/alan-wake-2
 <!--more-->

@@ -1,5 +1,5 @@
 ---
-title: "The Colour Out of Space 1927"
+title: "The Colour Out of Space (1927)"
 date: 1927-09-01
 
 # format for string: "xxxx-xx-xx"

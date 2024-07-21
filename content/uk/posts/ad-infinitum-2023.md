@@ -1,5 +1,5 @@
 ---
-title: "Ad Infinitum 2023"
+title: "Ad Infinitum (2023)"
 date: 2023-09-12
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["Horror about the earth"]
 image: "/uk/images/posts/ad-infinitum-2023/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Ad_Infinitum_(video_game)
 <!--more-->

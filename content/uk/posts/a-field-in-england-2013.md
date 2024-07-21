@@ -1,5 +1,5 @@
 ---
-title: "A Field in England 2013"
+title: "A Field in England (2013)"
 date: 2013-07-05
 
 # format for string: "xxxx-xx-xx"
@@ -19,7 +19,9 @@ image: "/uk/images/posts/a-field-in-england-2013/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
-hideFromArchives: true
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/A_Field_in_England
 https://www.imdb.com/title/tt2375574/

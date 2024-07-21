@@ -1,5 +1,5 @@
 ---
-title: "A Quiet Place 2018"
+title: "A Quiet Place (2018)"
 date: 2018-04-06
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["Horrors of the Senses"]
 image: "/uk/images/posts/a-quiet-place-2015/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/A_Quiet_Place
 https://www.imdb.com/title/tt6644200/

@@ -1,5 +1,5 @@
 ---
-title: "A Dark Song 2017"
+title: "A Dark Song (2017)"
 date: 2016-07-08
 
 # format for string: "xxxx-xx-xx"
@@ -19,7 +19,9 @@ image: "/uk/images/posts/a-dark-song-2017/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
-hideFromArchives: true
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/A_Dark_Song
 https://www.imdb.com/title/tt4805316/

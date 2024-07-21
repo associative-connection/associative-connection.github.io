@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Comics"]
 # refer to categories
-tags: []
+tags: ["gregg hoffman"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg

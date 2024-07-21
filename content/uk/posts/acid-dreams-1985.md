@@ -25,5 +25,5 @@ hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Acid_Dreams_(book)
 ...
-https://associative-connection.github.io/uk/posts/jacobs-ladder-1990/
+https://associative-connection.github.io/uk/posts/jacobs-ladder-1990
 <!--more-->

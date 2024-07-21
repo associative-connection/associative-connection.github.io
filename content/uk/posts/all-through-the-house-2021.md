@@ -1,6 +1,6 @@
 ---
-title: "All Through the House 2021"
-date: 2024-07-18T18:33:25+03:00
+title: "All Through the House (2021)"
+date: 2021-07-18
 
 # format for string: "xxxx-xx-xx"
 lastmod: "2024-07-18T18:33:25+03:00"

@@ -18,6 +18,10 @@ series: ["Insanity Forever"]
 image: "/uk/images/posts/alice-madness-returns/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Alice:_Madness_Returns
 https://en.wikipedia.org/wiki/American_McGee%E2%80%99s_Alice

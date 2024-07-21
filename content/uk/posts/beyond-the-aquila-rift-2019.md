@@ -1,6 +1,6 @@
 ---
-title: "Beyond the Aquila Rift 2019"
-date: 2024-07-18T17:57:23+03:00
+title: "Beyond the Aquila Rift (2019)"
+date: 2024-07-18
 
 # format for string: "xxxx-xx-xx"
 lastmod: "2024-07-18T17:57:23+03:00"

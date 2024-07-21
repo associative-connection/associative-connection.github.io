@@ -1,5 +1,5 @@
 ---
-title: "The Dark Eye 1995"
+title: "The Dark Eye (1995)"
 date: 1995-01-01
 
 # format for string: "xxxx-xx-xx"
@@ -13,7 +13,7 @@ categories: ["Video games", "Adventure", "Horror"]
 # refer to categories
 tags: ["inscape", "mystic", "uncanny valley", "folklore", "madness", "necro fetishism", "pandemic", "white death", "edgar allan poe"]
 # seires
-series: []
+series: ["Through the Eyes of the Monster"]
 # Top image for the post
 image: "/uk/images/posts/the-dark-eye-1995/cover.jpg"
 # Hide from home and other main page
@@ -24,5 +24,6 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/The_Dark_Eye_(video_game)
-https://associative-connection.github.io/uk/posts/berenice-1835/
+...
+https://associative-connection.github.io/uk/posts/berenice-1835
 <!--more-->

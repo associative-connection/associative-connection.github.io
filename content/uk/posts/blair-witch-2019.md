@@ -19,10 +19,11 @@ image: "/uk/images/posts/blair-witch-2019/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
 # Hide from archive page
-hideFromArchives: true
+hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Blair_Witch_(video_game)
-https://associative-connection.github.io/uk/posts/blair-witch/
+...
+https://associative-connection.github.io/uk/posts/blair-witch
 <!--more-->

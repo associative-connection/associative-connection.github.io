@@ -1,5 +1,5 @@
 ---
-title: "As Above So Below 2014"
+title: "As Above So Below (2014)"
 date: 2014-08-20
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["Horror about the earth"]
 image: "/uk/images/posts/as-above-so-below-2014/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/As_Above,_So_Below_(film)
 https://www.imdb.com/title/tt2870612/

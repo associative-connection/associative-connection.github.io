@@ -9,15 +9,19 @@ lastmod: "2024-05-30"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Horror", "Fantasy", "Dark fantasy"]
 # refer to categories
-tags: []
+tags: ["folklore", "hton", "nikolai gogol"]
 # seires
-series: []
+series: ["Projects based on slavic folklore"]
 # Top image for the post
 image: "/uk/images/posts/evenings-on-a-farm-near-dikanka-1831/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Evenings_on_a_Farm_Near_Dikanka
 <!--more-->

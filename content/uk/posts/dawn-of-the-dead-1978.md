@@ -1,5 +1,5 @@
 ---
-title: "Dawn of the Dead 1978"
+title: "Dawn of the Dead (1978)"
 date: 1978-09-01
 
 # format for string: "xxxx-xx-xx"
@@ -9,9 +9,9 @@ lastmod: "2024-07-15"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Movies", "Horror", "Thriller", "Apocalyptic Fiction"]
 # refer to categories
-tags: []
+tags: ["body horror", "biohazard", "militarism", "pandemic", "zombie", "george romero", "dario argento", "goblin"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
@@ -27,4 +27,5 @@ https://en.wikipedia.org/wiki/Dawn_of_the_Dead_(1978_film)
 https://www.imdb.com/title/tt0077402/
 ...
 https://en.wikipedia.org/wiki/Day_of_the_Dead_(1985_film)
+https://www.imdb.com/title/tt0088993/
 <!--more-->

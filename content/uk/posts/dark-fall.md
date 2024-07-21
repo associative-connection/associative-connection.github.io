@@ -9,15 +9,19 @@ lastmod: "2024-05-28"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Video games", "Adventure", "Puzzle", "Horror"]
 # refer to categories
-tags: []
+tags: ["indie", "jonathan boakes"]
 # seires
 series: []
 # Top image for the post
 image: "/uk/images/posts/dark-fall/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: true
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Dark_Fall
 <!--more-->

@@ -1,5 +1,5 @@
 ---
-title: "Asylum 1972"
+title: "Asylum (1972)"
 date: 1972-07-06
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["Insanity Forever"]
 image: "/uk/images/posts/asylum-1972/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Asylum_(1972_horror_film)
 https://www.imdb.com/title/tt0068230/

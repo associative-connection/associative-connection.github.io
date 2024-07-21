@@ -1,5 +1,5 @@
 ---
-title: "Bedlam 1946"
+title: "Bedlam (1946)"
 date: 1946-01-01
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["Insanity Forever"]
 image: "/uk/images/posts/bedlam-1946/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Bedlam_(1946_film)
 https://www.imdb.com/title/tt0038343/

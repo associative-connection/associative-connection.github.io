@@ -1,5 +1,5 @@
 ---
-title: "Cuando Acecha La Maldad 2023"
+title: "Cuando Acecha La Maldad | When Evil Lurks (2023)"
 date: 2023-10-06
 
 # format for string: "xxxx-xx-xx"
@@ -16,8 +16,13 @@ tags: ["hton", "faith", "biohazard", "pandemic", "zombie"]
 series: ["It's not what it seems"]
 # Top image for the post
 image: "/uk/images/posts/cuando-acecha-la-maldad-2023/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://es.wikipedia.org/wiki/Cuando_acecha_la_maldad
+https://www.imdb.com/title/tt16300962/
 <!--more-->

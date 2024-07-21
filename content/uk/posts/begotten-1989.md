@@ -1,5 +1,5 @@
 ---
-title: "Begotten 1989"
+title: "Begotten (1989)"
 date: 1989-10-25
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["The Overrated"]
 image: "/uk/images/posts/begotten-1989/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Begotten_(film)
 https://www.imdb.com/title/tt0101420/

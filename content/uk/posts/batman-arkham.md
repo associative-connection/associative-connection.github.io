@@ -16,8 +16,12 @@ tags: ["dc comics", "rocksteady studios", "narrative", "madness", "houses of sor
 series: ["Insanity Forever"]
 # Top image for the post
 image: "/uk/images/posts/batman-arkham/cover.webp"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Batman:_Arkham
 <!--more-->

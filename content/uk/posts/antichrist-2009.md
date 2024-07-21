@@ -1,5 +1,5 @@
 ---
-title: "Antichrist 2009"
+title: "Antichrist (2009)"
 date: 2009-05-20
 
 # format for string: "xxxx-xx-xx"
@@ -16,8 +16,12 @@ tags: ["faith", "lars von trier"]
 series: ["Depression trilogy"]
 # Top image for the post
 image: "/uk/images/posts/antichrist-2009/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Antichrist_(film)
 https://www.imdb.com/title/tt0870984/

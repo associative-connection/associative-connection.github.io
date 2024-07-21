@@ -1,9 +1,9 @@
 ---
-title: "Automated Customer Service 2021"
-date: 2024-07-18T18:24:46+03:00
+title: "Automated Customer Service (2021)"
+date: 2024-07-18
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-07-18T18:24:46+03:00"
+lastmod: "2024-07-18"
 
 # set false when you want the post publish
 draft: true

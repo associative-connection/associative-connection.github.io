@@ -23,5 +23,5 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-<iframe src="https://archive.org/embed/algenonblackwoodbbcr4" width="500" height="60" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+https://archive.org/details/algenonblackwoodbbcr4/01+Ancient+Sorceries+-+Arthur's+Journey.mp3
 <!--more-->

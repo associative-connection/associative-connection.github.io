@@ -1,5 +1,5 @@
 ---
-title: "Beyond the Gates 2016"
+title: "Beyond the Gates (2016)"
 date: 2016-06-02
 
 # format for string: "xxxx-xx-xx"
@@ -16,9 +16,12 @@ tags: []
 series: ["Requiem for a game"]
 # Top image for the post
 image: "/uk/images/posts/beyond-the-gates-2016/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
-hideFromArchives: true
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Beyond_the_Gates_(2016_film)
 https://www.imdb.com/title/tt4687358/

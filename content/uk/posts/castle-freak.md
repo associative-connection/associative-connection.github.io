@@ -9,15 +9,24 @@ lastmod: "2024-05-27"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Horror"]
 # refer to categories
-tags: []
+tags: ["mystic", "gothic", "victor hugo", "lovecraft"]
 # seires
 series: []
 # Top image for the post
 image: "/uk/images/posts/castle-freak/cover.webp"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D0%BD%D0%B2%D0%B8%D1%87%D1%81%D0%BA%D0%B8%D0%B9_%D1%83%D0%B6%D0%B0%D1%81
+https://en.wikipedia.org/wiki/Castle_Freak
+https://www.imdb.com/title/tt0112643/
+...
+https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame
+https://en.wikipedia.org/wiki/The_Outsider_(short_story)
+https://en.wikipedia.org/wiki/The_Dunwich_Horror
 <!--more-->

@@ -1,5 +1,5 @@
 ---
-title: "Berenice 1835"
+title: "Berenice (1835)"
 date: 1835-03-01
 
 # format for string: "xxxx-xx-xx"
@@ -16,10 +16,14 @@ tags: ["madness", "necro fetishism", "teeth", "edgar allan poe"]
 series: []
 # Top image for the post - not image
 image: ""
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
 hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Berenice_(short_story)
-https://associative-connection.github.io/uk/posts/the-dark-eye-1995/
+...
+https://associative-connection.github.io/uk/posts/the-dark-eye-1995
 <!--more-->

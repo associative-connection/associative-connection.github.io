@@ -1,5 +1,5 @@
 ---
-title: "Clock Tower 1995"
+title: "Clock Tower (1995)"
 date: 1995-06-14
 
 # format for string: "xxxx-xx-xx"

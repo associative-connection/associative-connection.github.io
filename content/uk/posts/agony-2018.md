@@ -1,5 +1,5 @@
 ---
-title: "Agony 2018"
+title: "Agony (2018)"
 date: 2018-05-29
 
 # format for string: "xxxx-xx-xx"
@@ -13,12 +13,17 @@ categories: ["Video games", "Action", "Adventure", "Horror"]
 # refer to categories
 tags: ["indie", "xbox one", "playstation 4", "nintendo switch", "madmind studio", "faith", "necro fetishism"]
 # seires
-series: []
+series: ["Every Satanist's Dream"]
 # Top image for the post
 image: "/uk/images/posts/agony-2018/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Agony_(2018_video_game)
-spin-off: https://associative-connection.github.io/uk/posts/succubus-2021/
+...
+https://associative-connection.github.io/uk/posts/succubus-2021 ( spin-off )
 <!--more-->

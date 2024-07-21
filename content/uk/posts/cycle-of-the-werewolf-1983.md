@@ -1,5 +1,5 @@
 ---
-title: "Cycle of the Werewolf 1983"
+title: "Cycle of the Werewolf (1983)"
 date: 1983-11-01
 
 # format for string: "xxxx-xx-xx"
@@ -9,9 +9,9 @@ lastmod: "2024-07-07"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Horror"]
 # refer to categories
-tags: []
+tags: ["gothic", "werewolf", "stephen king"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg

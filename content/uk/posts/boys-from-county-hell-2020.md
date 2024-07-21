@@ -16,8 +16,12 @@ tags: ["folklore"]
 series: ["Not the most popular work about vampires"]
 # Top image for the post
 image: "/uk/images/posts/boys-from-county-hell-2020/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Boys_from_County_Hell
 https://www.imdb.com/title/tt10262380/

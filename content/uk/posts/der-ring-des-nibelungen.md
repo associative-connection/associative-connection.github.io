@@ -9,11 +9,11 @@ lastmod: "2024-05-30"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Music"]
 # refer to categories
-tags: []
+tags: ["richard wagner", "carl emil doepler"]
 # seires
-series: []
+series: ["Projects based on northern myths", "Projects based on northern folklore", "Horrors that are referenced"]
 # Top image for the post
 image: "/uk/images/posts/der-ring-des-nibelungen/cover.jpeg"
 # Hide from home and other main page
@@ -23,5 +23,5 @@ hideFromArchives: false
 # Hide from everything but the archive
 hideFromSection: false
 ---
-
+https://de.wikipedia.org/wiki/Der_Ring_des_Nibelungen
 <!--more-->

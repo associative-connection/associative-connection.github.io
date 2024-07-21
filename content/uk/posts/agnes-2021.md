@@ -1,5 +1,5 @@
 ---
-title: "Agnes 2021"
+title: "Agnes (2021)"
 date: 2021-06-12
 
 # format for string: "xxxx-xx-xx"
@@ -16,8 +16,12 @@ tags: ["faith"]
 series: ["Horrors about investigations inside monasteries", "Women's monasteries infiltrated by evil"]
 # Top image for the post
 image: "/uk/images/posts/agnes-2021/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Agnes_(film)
 https://www.imdb.com/title/tt11348542/

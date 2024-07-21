@@ -1,5 +1,5 @@
 ---
-title: "A Plague Tale Innocence 2019"
+title: "A Plague Tale Innocence (2019)"
 date: 2019-05-14
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: []
 image: "/uk/images/posts/a-plague-tale-innocence-2019/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/A_Plague_Tale:_Innocence
 https://en.wikipedia.org/wiki/A_Plague_Tale:_Requiem

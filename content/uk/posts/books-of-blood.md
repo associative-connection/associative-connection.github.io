@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Books", "Movies", "Comics", "Horror", "Fantasy", "Dark fantasy", "Splatterpunk"]
 # refer to categories
-tags: ["necro fetishism", "candyman", "clive barker"]
+tags: ["necro fetishism", "metro", "train", "candyman", "clive barker"]
 # seires
 series: ["Pioneers of horror"]
 # Top image for the post

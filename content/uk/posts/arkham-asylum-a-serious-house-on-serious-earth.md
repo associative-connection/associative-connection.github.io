@@ -20,6 +20,8 @@ image: "/uk/images/posts/arkham-asylum-a-serious-house-on-serious-earth/cover.jp
 hideFromCenter: false
 # Hide from archive page
 hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Arkham_Asylum:_A_Serious_House_on_Serious_Earth
 <!--more-->

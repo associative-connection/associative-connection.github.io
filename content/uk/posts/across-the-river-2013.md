@@ -1,5 +1,5 @@
 ---
-title: "Oltre il guado 2013"
+title: "Oltre il guado (2013)"
 date: 2013-06-21
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: []
 image: "/uk/images/posts/across-the-river-2013/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://it.wikipedia.org/wiki/Oltre_il_guado
 https://www.imdb.com/title/tt2836202/

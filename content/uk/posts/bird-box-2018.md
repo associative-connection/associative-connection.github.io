@@ -1,5 +1,5 @@
 ---
-title: "Bird Box 2018"
+title: "Bird Box (2018)"
 date: 2018-12-14
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["Horrors of the senses"]
 image: "/uk/images/posts/bird-box-2018/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Bird_Box_(film)
 https://www.imdb.com/title/tt2737304/

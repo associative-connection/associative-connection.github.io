@@ -1,5 +1,5 @@
 ---
-title: "Apsulov End of Gods 2019"
+title: "Apsulov End of Gods (2019)"
 date: 2019-08-08
 
 # format for string: "xxxx-xx-xx"
@@ -18,6 +18,10 @@ series: ["Projects based on northern myths"]
 image: "/uk/images/posts/apsulov-end-of-gods-2019/cover.webp"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://store.steampowered.com/app/960980/Apsulov_End_of_Gods/
 <!--more-->

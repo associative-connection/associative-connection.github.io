@@ -18,11 +18,16 @@ series: []
 image: "/uk/images/posts/blair-witch/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
 # Hide from everything but the archive
-hideFromSection: true
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/The_Blair_Witch_Project
-https://associative-connection.github.io/en/posts/the-scooby-doo-project-1999/
-https://associative-connection.github.io/uk/posts/the-erotic-witch-project-2000/
-https://associative-connection.github.io/uk/posts/blair-witch-2019/
+...
+https://associative-connection.github.io/en/posts/the-scooby-doo-project-1999
+...
+https://associative-connection.github.io/uk/posts/the-erotic-witch-project-2000
+...
+https://associative-connection.github.io/uk/posts/blair-witch-2019
 <!--more-->

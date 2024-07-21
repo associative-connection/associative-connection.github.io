@@ -24,4 +24,6 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Wasteland_(video_game)
+...
+https://associative-connection.github.io/uk/posts/fallout
 <!--more-->

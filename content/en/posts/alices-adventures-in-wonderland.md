@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: []
 # refer to categories
-tags: []
+tags: ["recurring character"]
 # seires
 series: []
 # Top image for the post

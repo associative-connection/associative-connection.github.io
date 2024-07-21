@@ -1,5 +1,5 @@
 ---
-title: "Ringu 1991"
+title: "Ringu (1991)"
 date: 1991-01-01
 
 # format for string: "xxxx-xx-xx"

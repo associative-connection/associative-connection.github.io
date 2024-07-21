@@ -1,5 +1,5 @@
 ---
-title: "Confessions of an English Opium Eater 1821"
+title: "Confessions of an English Opium Eater (1821)"
 date: 1821-10-01
 
 # format for string: "xxxx-xx-xx"
@@ -9,7 +9,7 @@ lastmod: "2024-07-07"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: ["Books"]
+categories: ["Historical", "Books"]
 # refer to categories
 tags: ["oxford", "bildungsroman", "poison", "drugs", "opium", "thomas de quincey"]
 # seires

@@ -1,5 +1,5 @@
 ---
-title: "Dracula 1897"
+title: "Dracula (1897)"
 date: 1897-05-18
 
 # format for string: "xxxx-xx-xx"
@@ -9,15 +9,19 @@ lastmod: "2024-05-26"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Books", "Horror"]
 # refer to categories
-tags: ["vampiry"]
+tags: ["gothic", "vampiry", "recurring character", "bram stoker"]
 # seires
-series: []
+series: ["Horrors that are referenced"]
 # Top image for the post
 image: "/uk/images/posts/dracula-1897/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
-
+https://en.wikipedia.org/wiki/Dracula
 <!--more-->

@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Books", "Horror"]
 # refer to categories
-tags: ["hton", "nikolai gogol"]
+tags: ["folklore", "hton", "nikolai gogol"]
 # seires
 series: ["Projects based on slavic folklore"]
 # Top image for the post - not image
@@ -24,5 +24,6 @@ hideFromArchives: false
 hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Mirgorod_(Gogol)
-https://associative-connection.github.io/uk/posts/viy-1835/
+...
+https://associative-connection.github.io/uk/posts/viy-1835
 <!--more-->

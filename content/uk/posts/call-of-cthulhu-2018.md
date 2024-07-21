@@ -18,6 +18,10 @@ series: ["Lovecraft compilation"]
 image: "/uk/images/posts/call-of-cthulhu-2018/cover.jpg"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Call_of_Cthulhu_(video_game)
 <!--more-->

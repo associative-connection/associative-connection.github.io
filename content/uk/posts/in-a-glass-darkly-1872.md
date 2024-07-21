@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Books", "Horror", "Fantasy", "Dark fantasy"]
 # refer to categories
-tags: ["gothic", "ghost story", "supernatural", "mystic", "folklore", "vampiry", "sheridan le fanu"]
+tags: ["gothic", "ghost story", "supernatural", "mystic", "folklore", "vampiry", "recurring character", "sheridan le fanu"]
 # seires
 series: []
 # Top image for the post
@@ -25,5 +25,5 @@ hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/In_a_Glass_Darkly
 ...
-https://associative-connection.github.io/posts/styria-2014/
+https://associative-connection.github.io/uk/posts/styria-2014
 <!--more-->

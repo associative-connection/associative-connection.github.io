@@ -1,5 +1,5 @@
 ---
-title: "Styria 2014"
+title: "Styria (2014)"
 date: 2014-08-21
 
 # format for string: "xxxx-xx-xx"
@@ -25,5 +25,5 @@ hideFromSection: false
 ---
 https://www.imdb.com/title/tt1764614/
 ...
-https://associative-connection.github.io/posts/in-a-glass-darkly-1872/
+https://associative-connection.github.io/uk/posts/in-a-glass-darkly-1872
 <!--more-->

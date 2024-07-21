@@ -18,6 +18,10 @@ series: []
 image: "/uk/images/posts/assassins-creed/cover.png"
 # Hide from home and other main page
 hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Assassin%27s_Creed
 <!--more-->

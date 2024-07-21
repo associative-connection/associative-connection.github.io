@@ -1,5 +1,5 @@
 ---
-title: "Brainscan 1994"
+title: "Brainscan (1994)"
 date: 1994-04-22
 
 # format for string: "xxxx-xx-xx"
@@ -16,8 +16,12 @@ tags: []
 series: ["Requiem for a game"]
 # Top image for the post
 image: "/uk/images/posts/brainscan-1994/cover.jpg"
-# Hide from home page
-hideFromHomePage: false
+# Hide from home and other main page
+hideFromCenter: false
+# Hide from archive page
+hideFromArchives: false
+# Hide from everything but the archive
+hideFromSection: false
 ---
 https://en.wikipedia.org/wiki/Brainscan
 https://www.imdb.com/title/tt0109327/
