@@ -25,7 +25,11 @@
 
         </div>
 
-        {{- partial "footer/hugr-init.html" . -}}
+        {{ if eq .Kind "home" }}
+            {{- partial "footer/main/hugr-init.html" . -}}
+        {{ else }}
+            {{- partial "footer/hugr-init.html" . -}}
+        {{ end }}
 
     </body>
 </html>
