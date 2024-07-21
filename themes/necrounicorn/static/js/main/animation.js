@@ -176,7 +176,7 @@ ScrollTrigger.create({
 });
 ScrollTrigger.create({
   trigger: ".grid--1", 
-  onEnter: () => selectFolklore(event)
+  onEnter: () => selectCulture(event)
 });
 ScrollTrigger.create({
   trigger: ".grid--2", 

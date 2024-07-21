@@ -31,10 +31,10 @@ function selectBiopunk() {
 	});
 }
 
-function selectFolklore() {
-	TagCanvas.Start('root_folklore', 'associative_folklore', {
+function selectCulture() {
+	TagCanvas.Start('root_culture', 'associative_culture', {
 		activeAudio: true, 
-		centreImage: './img/icon/folklore.png', 
+		centreImage: './img/icon/culture.png', 
 		dragControl: true, 
 		initial: [0.200, 0.000], 
 		shape: "vring(0.5)", 
