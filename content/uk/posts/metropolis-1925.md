@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Books", "Sci-fi", "Cyberpunk", "Biopunk", "Mythpunk"]
 # refer to categories
-tags: ["expressionism", "science fiction", "mythology", "folklore", "northern religion", "necro fetishism", "humanism", "posthumanism"]
+tags: ["expressionism", "science fiction", "mythology", "folklore", "northern religion", "industry", "necro fetishism", "humanism", "posthumanism"]
 # seires
 series: ["Projects based on northern myths", "Projects based on northern folklore"]
 # Top image for the post: /en/images/posts/test/cover.jpg
