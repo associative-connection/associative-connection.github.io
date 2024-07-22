@@ -50,7 +50,7 @@ const applyAnimation = (grid, animationType) => {
 
 		case 'type1': 
 			// Set some CSS related style values
-			grid.style.setProperty('--grid-width', '50%');
+			grid.style.setProperty('--grid-width', '60%');
 			grid.style.setProperty('--perspective', '3000px');
 			grid.style.setProperty('--grid-item-ratio', '0.8');
 			grid.style.setProperty('--grid-columns', '3');
