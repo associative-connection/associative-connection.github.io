@@ -149,22 +149,6 @@ body #cdawrap {
 	max-width: 700px;
 }
 
-/*.b_memory_section-biohazard {
-	animation: pulse .3s linear infinite
-}*/
-
-/*@keyframes pulse {
-  0% {
-    background: radial-gradient(200px, rgba(0, 255, 255, .20), rgba(178, 24, 24, .15), transparent)
-  }
-  50% {
-    background: radial-gradient(201.5px, rgba(0, 255, 255, .21), rgba(178, 24, 24, .15), transparent)
-  }
-  100% {
-    background: radial-gradient(203px, rgba(0, 255, 255, .20), rgba(178, 24, 24, .15), transparent)
-  }
-}*/
-
 .linkBiopunk {font-family: "Press Start 2P", system-ui}
 .linkCulture {font-family: "Rye", serif}
 .linkDreams {font-family: "Henny Penny", system-ui}
@@ -341,44 +325,7 @@ body #cdawrap {
 
 
 .bottleMask {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	clip-path: circle(29% at 50% 60%);
 	/*clip-path: polygon(42% 32%, 42% 32%, 49% 34%, 49% 34%, 56% 34%, 56% 34%, 62% 35%, 62% 35%, 66% 39%, 66% 39%, 71% 42%, 71% 42%, 74% 47%, 74% 47%, 76% 53%, 76% 53%, 78% 59%, 78% 59%, 78% 65%, 78% 65%, 76% 71%, 76% 71%, 74% 75%, 74% 75%, 70% 80%, 70% 80%, 64% 84%, 64% 84%, 58% 87%, 58% 87%, 51% 89%, 51% 89%, 42% 88%, 42% 88%, 37% 85%, 37% 85%, 32% 82%, 32% 82%, 27% 77%, 27% 81%, 24% 70%, 24% 70%, 22% 63%, 22% 63%, 23% 56%, 23% 56%, 25% 51%, 25% 51%, 28% 45%, 28% 52%, 31% 40%, 31% 40%, 35% 38%, 35% 38%, 38% 35%, 38% 35%);*/
 }
-
-
-/*#canvas {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
-.curtain {
-        position: absolute;
-        top: 5%;
-        right: 5%;
-        bottom: 5%;
-        left: 5%;
-    }
-
-    .curtain img {
-        display: none;
-    }
-
-
-
-    .no-curtains .curtain {
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .no-curtains .curtain img {
-        display: block;
-        min-width: 100%;
-        min-height: 100%;
-        object-fit: cover;
-    }*/
