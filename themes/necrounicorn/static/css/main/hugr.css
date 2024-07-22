@@ -39,6 +39,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+a {text-decoration: underline;}
+
 /* Page Loader */
 .js .loading:before,
 .js .loading:after {
