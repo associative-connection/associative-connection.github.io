@@ -11,7 +11,7 @@ draft: false
 # more categories: ["category-1", "category-2", ...]
 categories: ["Movies", "Horror"]
 # refer to categories
-tags: []
+tags: ["necro fetishism"]
 # seires
 series: []
 # Top image for the post: /en/images/posts/test/cover.jpg
