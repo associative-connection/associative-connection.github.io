@@ -39,8 +39,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-a {text-decoration: underline;}
-
 /* Page Loader */
 .js .loading:before,
 .js .loading:after {
@@ -78,7 +76,7 @@ a {text-decoration: underline;}
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: var(--color-link);
 	outline: none;
 	cursor: pointer;
