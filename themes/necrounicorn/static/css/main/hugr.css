@@ -220,12 +220,12 @@ body #cdawrap {
 }
 
 .content__title h3 {font-size: clamp(1.5rem, 2.5vw, 6.5rem);}
-.content__title p {font-size: clamp(.5rem, 1.5vw, 3.5rem);}
+.content__title p {font-size: clamp(.5rem, 1.5vw, 3.5rem); text-shadow: 0px -6px 6px #000;}
 
 #section1 .content__title {font-family: "Press Start 2P", system-ui}
 #section1 h3 {
 	color: #fee;
-	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #0FF, 0 0 0.5em #0FF, 0 0 0.1em #0FF, 0 10px 3px #000;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #0ff, 0 0 0.5em #0ff, 0 0 0.1em #0ff, 0px -3px 3px #ff0, 0px -6px 6px #000;
 }
 #section1 .animation--run {animation: blink linear infinite 2s;}
 @keyframes blink {
