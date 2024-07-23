@@ -48,30 +48,6 @@ $(function() {
 	$('.slider').glide({
 		autoplay: 11000
 	});
-	// window welcome
-	let ww = $('#window_welcome'), 
-		wwCont = $('.window_welcome--cont');
-
-	if (!$.cookie('was')) {
-		wwCont.fadeIn();
-		$('body').addClass('castration');
-	} else {
-		$('body').removeClass('castration');
-	}
-
-	$('#b_yes').click(function () {
-		$.cookie('was', true, {
-			expires: 365, 
-			path: '/'
-		});
-		$(wwCont).fadeOut();
-		$('body').removeClass('castration');
-	});
-
-	$('#b_no').click(function () {
-		$('.text-warning').css("visibility", "visible").fadeIn(2200);
-		$.removeCookie('was');
-	});
 });
 
 // for tablet, mobile
