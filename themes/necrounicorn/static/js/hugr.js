@@ -49,8 +49,8 @@ $(function() {
 		autoplay: 11000
 	});
 	// window welcome
-	let ww = $('#window_welcome'), 
-		wwCont = $('.window_welcome--cont');
+	let ww = $('#lost_memories'), 
+		wwCont = $('.lost_memories');
 
 	if (!$.cookie('was')) {
 		wwCont.fadeIn();
