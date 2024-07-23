@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const topDiv = document.querySelector('.topDIV');
+  const topDiv = document.querySelector('.window_welcome--cont');
   const buttonX = document.querySelector('.button-x');
   // Get value from localStorage when open the page
   const lS = localStorage.getItem('first-visit');
