@@ -50,7 +50,7 @@ $(function() {
 	});
 	// window welcome
 	let ww = $('#window_welcome'), 
-		wwCont = $('.window_welcome');
+		wwCont = $('.window_welcome--cont');
 
 	if (!$.cookie('was')) {
 		wwCont.fadeIn();
