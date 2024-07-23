@@ -1580,7 +1580,7 @@ keyframes pulse {
 /* Welcome Window
 ==============================
  */
-.lost_memories {
+.window_welcome {
     z-index: 999;
     display: none;
     position: fixed;
@@ -1592,11 +1592,11 @@ keyframes pulse {
     font-family: 'Philosopher', sans-serif; font-size: 110%; font-weight: 700;
 }
 
-.lost_memories h4 {font-size: 150%;}
+.window_welcome h4 {font-size: 150%;}
 
-.lost_memories ol ol {margin-right: 20px; margin-left: 20px;}
+.window_welcome ol ol {margin-right: 20px; margin-left: 20px;}
 
-.lost_memories li {margin-top: 15px;}
+.window_welcome li {margin-top: 15px;}
 
 /* Переключатели
 ==============================
