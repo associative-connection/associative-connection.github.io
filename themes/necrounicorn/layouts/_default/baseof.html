@@ -7,9 +7,10 @@
 
         {{ if eq .Kind "home" }}
             {{- partial "home.html" . -}}
-
             {{- partial "footer/main/hugr-init.html" . -}}
         {{ else }}
+            {{- partial "widgets/lost-memories.html" . -}}
+
             <div class="base_width p_relative wrap"> <div id="overlay" class="base_width p_fixed"></div>
 
                 <div class="center media_base_width p_relative breadcrumbs" prefix="v: http://rdf.data-vocabulary.org/#">
@@ -19,7 +20,6 @@
                 {{- partial "header/header.html" . -}}
                 {{ partial "header/search.html" . }}
                 {{ partial "widgets/vars.html" . }}
-
                 {{ partial "widgets/hero.html" . }}
 
                 <div id="container" class="center media_base_width p_relative clearfix">
