@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Press+Start+2P&family=Rye&display=swap');
-
 *, 
 *:after, 
 *:before {
@@ -25,8 +24,7 @@
 }
 
 html:-webkit-scrollbar { /* webkit */
-    width: 0;
-    height: 0;
+	width: 0; height: 0;
 }
 
 body {
@@ -40,7 +38,7 @@ body {
 }
 
 /* Page Loader */
-.js .loading:before,
+.js .loading:before, 
 .js .loading:after {
 	content: '';
 	position: fixed;
