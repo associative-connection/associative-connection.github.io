@@ -282,7 +282,7 @@ main {
 }
 
 .bottleMask {
-	background-color: #ffffff;
+	background-color: #fff;
 	clip-path: circle(29% at 50% 60%);
 	/*clip-path: polygon(42% 32%, 42% 32%, 49% 34%, 49% 34%, 56% 34%, 56% 34%, 62% 35%, 62% 35%, 66% 39%, 66% 39%, 71% 42%, 71% 42%, 74% 47%, 74% 47%, 76% 53%, 76% 53%, 78% 59%, 78% 59%, 78% 65%, 78% 65%, 76% 71%, 76% 71%, 74% 75%, 74% 75%, 70% 80%, 70% 80%, 64% 84%, 64% 84%, 58% 87%, 58% 87%, 51% 89%, 51% 89%, 42% 88%, 42% 88%, 37% 85%, 37% 85%, 32% 82%, 32% 82%, 27% 77%, 27% 81%, 24% 70%, 24% 70%, 22% 63%, 22% 63%, 23% 56%, 23% 56%, 25% 51%, 25% 51%, 28% 45%, 28% 52%, 31% 40%, 31% 40%, 35% 38%, 35% 38%, 38% 35%, 38% 35%);*/
 }
@@ -329,6 +329,137 @@ main {
 	background-position: 50% 50%;
 }
 
+
+
+@keyframes gradientShift {
+  0% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+.container {
+  height: 420px;
+  position: relative;
+  margin: 120px 0;
+  text-align: center;
+}
+
+.crystal-ball {
+  margin: 50px auto;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 100%;
+  z-index: -1;
+  background: linear-gradient(45deg, #14f5a2, #f55651, #23a5c2, #c2235f);
+  background-size: 400% 400%;
+  animation: gradientShift 20s ease infinite;
+  opacity: 1;
+}
+.crystal-ball:before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 0;
+  left: calc(50% - 250px);
+  border-radius: 50%;
+  z-index: 1;
+  background: radial-gradient(circle at 50% 120%, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
+  filter: blur(6px);
+  opacity: 0.7;
+}
+.crystal-ball:after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 0;
+  left: calc(50% - 250px);
+  border-radius: 50%;
+  z-index: 1;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  filter: blur(6px);
+  opacity: 0.6;
+}
+
+#text, #author {
+  width: 400px;
+  position: absolute;
+  max-height: 400px;
+  padding: 30px 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  background: linear-gradient(45deg, #14f5a2, #f55651, #23a5c2, #c2235f);
+  background-size: 400% 400%;
+  font-size: 26px;
+  animation: gradientShift 25s ease infinite;
+  opacity: 0;
+  z-index: 1;
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: url(#turb);
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+#author {
+  font-style: italic;
+  margin: 200px 0;
+}
+
+.button {
+  box-shadow: 0px 0px 2px 1px #fff;
+  text-shadow: 0px 0px 0.2px #000;
+  border-radius: 17px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  background: radial-gradient(circle at 50% 120%, #22d7ef, #1bc8e4 10%, #61b6b9 80%, #50aeb1 100%);
+  box-sizing: border-box;
+  padding: 7px;
+  margin: 0 auto;
+}
+.button:hover {
+  background: linear-gradient(45deg, #14f5a2, #f55651, #23a5c2, #c2235f);
+  background-size: 400% 400%;
+  animation: gradientShift 20s ease infinite;
+}
+.button:active {
+  box-shadow: 0px 0px 0px 0px #fff;
+  text-shadow: 0px 0px 0px #000;
+}
+
+#new-quote {
+  margin: 15px auto;
+  width: 170px;
+  height: 40px;
+}
+
+#tweet-quote {
+  height: 40px;
+  display: block;
+  border-radius: 12px;
+  width: 50px;
+  padding: 8px;
+}
+#tweet-quote i {
+  color: white;
+  font-size: 25px;
+}
+
+
+
 @media screen and (min-width: 53em) {
 	.content--outro {
 		height: 100vh;
@@ -344,7 +475,7 @@ main {
 	}
 }
 
-@media all and (min-width: 550px) {
+@media all and (max-width: 550px) {
 .content__title {
 	background: radial-gradient(50vw, rgba(0, 0, 0, .90), transparent);
 }
