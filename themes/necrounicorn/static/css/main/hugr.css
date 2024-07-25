@@ -151,6 +151,7 @@ main {
 }
 
 .hat:before {
+	background: radial-gradient(50% 50%, transparent, rgba(0, 0, 0, .90));
 	pointer-events: none;
 	content: '';
 	left: 0;
@@ -160,10 +161,10 @@ main {
 	position: absolute;
 }
 
-.b_memory_section {
+section .b_memory_section {
 	height: 300px;
 	max-width: 700px;
-	background: radial-gradient(50% 50%, transparent, rgba(0, 0, 0, .90));
+	background: radial-gradient(50% 50%, rgba(0, 0, 0, .90), transparent);
 }
 
 .linkBiopunk {font-family: "Press Start 2P", system-ui}
