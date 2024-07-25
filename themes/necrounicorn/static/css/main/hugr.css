@@ -29,6 +29,7 @@ html:-webkit-scrollbar { /* webkit */
 }
 
 body {
+	min-width: 500px;
 	margin: 0;
 	background: var(--color-bg);
 	color: var(--color-text);
@@ -152,7 +153,6 @@ main {
 .hat:before {
 	pointer-events: none;
 	content: '';
-	background: radial-gradient(20vw, transparent, rgba(0, 0, 0, .90));
 	left: 0;
 	top: 0;
 	height: inherit;
@@ -163,6 +163,7 @@ main {
 .b_memory_section {
 	height: 300px;
 	max-width: 700px;
+	background: radial-gradient(50% 50%, transparent, rgba(0, 0, 0, .90));
 }
 
 .linkBiopunk {font-family: "Press Start 2P", system-ui}
@@ -456,14 +457,6 @@ main {
 #tweet-quote i {
   color: white;
   font-size: 25px;
-}
-
-body {
-  background: #011014;
-  min-width: 500px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 

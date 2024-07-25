@@ -50,8 +50,8 @@ window.addEventListener("load", function(event){
   //on page load generate first quote
   getQuote();
   //new quote button and tweet quote button
-  var newQuote = document.querySelector('#new-quote'); 
-  var tweetQuote = document.querySelector('#tweet-quote');
+  let newQuote = document.querySelector('#new-quote'); 
+  let tweetQuote = document.querySelector('#tweet-quote');
   
   newQuote.addEventListener("click", getQuote);
   //convert current quote and author to URI and use Twitter API to tweet it
