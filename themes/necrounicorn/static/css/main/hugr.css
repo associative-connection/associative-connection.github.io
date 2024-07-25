@@ -151,7 +151,7 @@ main {
 }
 
 .hat:before {
-	background: radial-gradient(50% 50%, transparent, rgba(0, 0, 0, .90));
+	background: radial-gradient(300px, transparent, rgba(0, 0, 0, .90));
 	pointer-events: none;
 	content: '';
 	left: 0;
