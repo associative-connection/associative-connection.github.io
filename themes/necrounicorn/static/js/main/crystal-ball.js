@@ -1,10 +1,10 @@
-var currentQuote = '';
-var currentAuthor = '';
+let currentQuote = '';
+let currentAuthor = '';
 
 //update quote and author in view with fade in/out animation. Backup quote array included for failed AJAX calls
 function getQuote(){  
     //instantiate new XHR object
-    var request = new XMLHttpRequest();
+    let request = new XMLHttpRequest();
     //fade out current quote and author
     TweenMax.to([text, author], 0.3,{opacity: 0}); 
     //initialize GET request. Add output of Math.random to URI query to avoid repeat quotes 
@@ -14,7 +14,7 @@ function getQuote(){
       //when results of AJAX call have fully loaded check to see if call was successful
       if (request.status >= 200 && request.status < 400) {
         //store result of call in var data and convert to JSON object
-        var data = JSON.parse(request.responseText);
+        let data = JSON.parse(request.responseText);
         //update view with new quote and author
         currentQuote = text.innerHTML = data.quoteText;
         currentAuthor = author.innerHTML = "-" + data.quoteAuthor;
