@@ -404,7 +404,6 @@ section .b_memory_section {
   background-size: 400% 400%;
   font-size: 26px;
   animation: gradientShift 25s ease infinite;
-  opacity: 0;
   z-index: 1;
   color: #fff;
   -webkit-background-clip: text;
@@ -440,24 +439,6 @@ section .b_memory_section {
 .button:active {
   box-shadow: 0px 0px 0px 0px #fff;
   text-shadow: 0px 0px 0px #000;
-}
-
-#new-quote {
-  margin: 15px auto;
-  width: 170px;
-  height: 40px;
-}
-
-#tweet-quote {
-  height: 40px;
-  display: block;
-  border-radius: 12px;
-  width: 50px;
-  padding: 8px;
-}
-#tweet-quote i {
-  color: white;
-  font-size: 25px;
 }
 
 
