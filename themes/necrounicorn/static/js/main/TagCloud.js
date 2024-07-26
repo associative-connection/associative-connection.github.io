@@ -47,7 +47,7 @@ function selectCulture() {
 function selectDreams() {
 	TagCanvas.Start('root_dreams', 'associative_dreams', {
 		activeAudio: true, 
-		centreImage: 'https://associative-connection.github.io/img/main/icon/arkham.png', 
+		centreImage: 'https://associative-connection.github.io/img/main/icon/logo_negate.png', 
 		dragControl: true, 
 		initial: [0.200, 0.000], 
 		shape: "hcylinder", 
