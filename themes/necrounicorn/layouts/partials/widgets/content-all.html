@@ -8,10 +8,6 @@
 
         {{ .Content }}
 
-        {{ if or .PrevInSection .NextInSection }}
-                {{ partial "widgets/pre-next.html" . }}
-        {{ end }}
-
         {{ if eq .Kind "page" }}
             <div class="t_center castration cover p_relative atcScreen">
                 <p>
@@ -69,10 +65,3 @@
         {{ partial "widgets/category-card.html" . }}
     {{ end }}
 {{ end }}
-
-<div class="t_center bl base_height media_base_width p_fixed mobile_navigation">
-<ul class="base_width p_relative">
-<li class="max fl"><a class="t_center base_height base_width p_relative" href="#container"><i class="fa fa-list"></i></a></li><li class="max fl"><a class="t_center base_height base_width p_relative" href="#comment_b"><i class="fa fa-list-alt"></i></a></li>
-<li class="max fl"><a class="t_center base_height base_width p_relative" href="#container"><i class="fa fa-list"></i></a></li><li class="max fl"><a class="t_center base_height base_width p_relative" href="#content"><i class="fa fa-list-alt"></i></a></li>
-</ul>
-</div>

@@ -1,33 +1,43 @@
-<div class="t_center castration cover p_relative atcScreen">
-    {{ if .PrevInSection }}
-        {{ if .NextInSection }}
-            {{ with .PrevInSection }}
-                <a class="fl share" href="{{ .Permalink }}">
-                    <i class="fa fa-hand-o-left"></i> {{ .Title }}
-                </a>
-            {{ end }}
+<div class="t_center bl base_height media_base_width p_fixed mobile_navigation">
+    <ul class="base_width p_relative">
+        {{ if .PrevInSection }}
+            {{ if .NextInSection }}
+                {{ with .PrevInSection }}
+                    <li class="max fl">
+                        <a class="t_center base_height base_width p_relative" href="{{ .Permalink }}">
+                            <i class="fa fa-hand-o-left"></i> {{ .Title }}
+                        </a>
+                    </li>
+                {{ end }}
 
-            {{ with .NextInSection }}
-                <a class="fr share" href="{{ .Permalink }}">
-                    <i class="fa fa-hand-o-right"></i> {{ .Title }}
-                </a>
+                {{ with .NextInSection }}
+                    <li class="max fl">
+                        <a class="t_center base_height base_width p_relative" href="{{ .Permalink }}">
+                            <i class="fa fa-hand-o-right"></i> {{ .Title }}
+                        </a>
+                    </li>
+                {{ end }}
+
+            {{ else }}
+                {{ with .PrevInSection }}
+                    <li class="max fl">
+                        <a class="t_center base_height base_width p_relative" href="{{ .Permalink }}">
+                            <i class="fa fa-hand-o-left"></i> {{ .Title }}
+                        </a>
+                    </li>
+                {{ end }}
             {{ end }}
 
         {{ else }}
-            {{ with .PrevInSection }}
-                <a class="fl share" href="{{ .Permalink }}">
-                    <i class="fa fa-hand-o-left"></i> {{ .Title }}
-                </a>
+            {{ if .NextInSection }}
+                {{ with .NextInSection }}
+                    <li class="max fl">
+                        <a class="t_center base_height base_width p_relative" href="{{ .Permalink }}">
+                            <i class="fa fa-hand-o-right"></i> {{ .Title }}
+                        </a>
+                    </li>
+                {{ end }}
             {{ end }}
         {{ end }}
-
-    {{ else }}
-        {{ if .NextInSection }}
-            {{ with .NextInSection }}
-                <a class="fr share" href="{{ .Permalink }}">
-                    <i class="fa fa-hand-o-right"></i> {{ .Title }}
-                </a>
-            {{ end }}
-        {{ end }}
-    {{ end }}
+    </ul>
 </div>
