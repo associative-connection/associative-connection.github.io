@@ -17,7 +17,8 @@
         {{ .Content }}
 
         {{ if eq .Kind "page" }}
-<p><i class="fa fa-folder"></i>
+            <p>
+                <i class="fa fa-folder"></i>
                 {{ with .Params.categories }}{{ i18n "postInfo_includedIn" }}:{{ else }}{{ i18n "postInfo_notIncluded" }}{{ end }}
                 {{ range $idx, $category := .Params.categories }}
                 {{- if ne $idx 0 }}, {{ end }}
@@ -28,7 +29,8 @@
                 {{ end }}'>
                     {{ $category }}
                 </a>
-                {{- end }}</p>
+                {{- end }}
+            </p>
             <p>
                 {{ range $tag := .Params.tags }}
                 <a href='{{ if $isMultiLingual }}
