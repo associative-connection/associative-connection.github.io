@@ -6,6 +6,12 @@
     <article class="aMessage">
         {{ partial "widgets/author-card-small.html" . }}
 
+        {{ .Content }}
+
+        {{ if or .PrevInSection .NextInSection }}
+                {{ partial "widgets/pre-next.html" . }}
+        {{ end }}
+
         {{ if eq .Kind "page" }}
             <p>
                 <i class="fa fa-folder"></i>
@@ -31,14 +37,6 @@
                     <i class="fa fa-tag"></i> {{ . }}
                 </a>
                 {{ end }}
-            </p>
-        {{ end }}
-
-        {{ .Content }}
-
-        {{ if or .PrevInSection .NextInSection }}
-            <p>
-                {{ partial "widgets/pre-next.html" . }}
             </p>
         {{ end }}
     </article>

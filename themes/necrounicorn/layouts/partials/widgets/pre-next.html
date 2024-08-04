@@ -1,31 +1,33 @@
-{{ if .PrevInSection }}
-    {{ if .NextInSection }}
-        {{ with .PrevInSection }}
-            <a class="fl share" href="{{ .Permalink }}">
-                <i class="fa fa-hand-o-left"></i> {{ .Title }}
-            </a>
-        {{ end }}
+<div class="t_center castration cover p_relative atcScreen">
+    {{ if .PrevInSection }}
+        {{ if .NextInSection }}
+            {{ with .PrevInSection }}
+                <a class="fl share" href="{{ .Permalink }}">
+                    <i class="fa fa-hand-o-left"></i> {{ .Title }}
+                </a>
+            {{ end }}
 
-        {{ with .NextInSection }}
-            <a class="fr share" href="{{ .Permalink }}">
-                <i class="fa fa-hand-o-right"></i> {{ .Title }}
-            </a>
+            {{ with .NextInSection }}
+                <a class="fr share" href="{{ .Permalink }}">
+                    <i class="fa fa-hand-o-right"></i> {{ .Title }}
+                </a>
+            {{ end }}
+
+        {{ else }}
+            {{ with .PrevInSection }}
+                <a class="fl share" href="{{ .Permalink }}">
+                    <i class="fa fa-hand-o-left"></i> {{ .Title }}
+                </a>
+            {{ end }}
         {{ end }}
 
     {{ else }}
-        {{ with .PrevInSection }}
-            <a class="fl share" href="{{ .Permalink }}">
-                <i class="fa fa-hand-o-left"></i> {{ .Title }}
-            </a>
+        {{ if .NextInSection }}
+            {{ with .NextInSection }}
+                <a class="fr share" href="{{ .Permalink }}">
+                    <i class="fa fa-hand-o-right"></i> {{ .Title }}
+                </a>
+            {{ end }}
         {{ end }}
     {{ end }}
-
-{{ else }}
-    {{ if .NextInSection }}
-        {{ with .NextInSection }}
-            <a class="fr share" href="{{ .Permalink }}">
-                <i class="fa fa-hand-o-right"></i> {{ .Title }}
-            </a>
-        {{ end }}
-    {{ end }}
-{{ end }}
+</div>
