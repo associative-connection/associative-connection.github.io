@@ -8,12 +8,6 @@
     {{ end }}
     <title>{{ .Site.Title }}{{ if not .IsHome }}{{ with .Title }} | {{ . }}{{ end }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
-
-    <meta property="og:title" content="{{ .Site.Title }}{{ if not .IsHome }}{{ with .Title }} | {{ . }}{{ end }}{{ end }}" />
-    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}" />
-    {{ with .Params.image }}<meta property="og:image" content="{{ with .Params.image }}{{ . }}{{ else }}" />{{ else }}
-    <meta name="og:site_name" content="{{ .Site.Title }}{{ if not .IsHome }}{{ with .Title }} | {{ . }}{{ end }}{{ end }}" />
-
     <link rel="canonical" href="{{ .Permalink }}" />
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     {{ if eq .Kind "home" }}
