@@ -12,6 +12,8 @@
         {{ $hero_img = .Site.Params.page.aboutTopImg }}
         {{ $hero_title = i18n "About_about" }}
         {{ $hero_des = .Site.Params.page.aboutDes }}
+    {{ else if eq .Section "articles" }}
+        {{ $hero_title = i18n "Articles_articles" }}
     {{ end }}
 
 {{ else if eq .Kind "taxonomy" }}

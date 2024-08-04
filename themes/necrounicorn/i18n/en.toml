@@ -8,6 +8,10 @@
 [Posts_allPosts]
 	other = 'all Posts'
 
+# String in Articles
+[Articles_articles]
+	other = 'Articles'
+
 # String in Categories taxonomy
 [Categories_categories]
 	other = 'Categories'
