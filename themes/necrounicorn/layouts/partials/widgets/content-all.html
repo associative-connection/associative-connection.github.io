@@ -21,8 +21,9 @@
         {{ end }}
     </article>
 
-    {{ if eq .Kind "page" }}
+
         <footer class="castration base_width p_relative footer_info">
+            {{ if eq .Kind "page" }}
                 <p>
                     <i class="fa fa-folder"></i>
                     {{ with .Params.categories }}{{ i18n "postInfo_includedIn" }}:{{ else }}{{ i18n "postInfo_notIncluded" }}{{ end }}
@@ -48,8 +49,9 @@
                     </a>
                     {{ end }}
                 </p>
+            {{ end }}
         </footer>
-    {{ end }}
+
 
 {{ else if eq .Kind "term" }}
     {{ range .Pages }}
