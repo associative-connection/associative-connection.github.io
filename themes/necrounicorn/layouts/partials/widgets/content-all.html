@@ -13,31 +13,33 @@
         {{ end }}
 
         {{ if eq .Kind "page" }}
-            <p>
-                <i class="fa fa-folder"></i>
-                {{ with .Params.categories }}{{ i18n "postInfo_includedIn" }}:{{ else }}{{ i18n "postInfo_notIncluded" }}{{ end }}
-                {{ range $idx, $category := .Params.categories }}
-                {{- if ne $idx 0 }}, {{ end }}
-                <a href='{{ if $isMultiLingual }}
-                    {{ $langNow | relURL}}/categories/{{ $category | urlize }}
-                {{ else }}
-                    {{ "categories/" | relURL }}{{ $category | urlize }}
-                {{ end }}'>
-                    {{ $category }}
-                </a>
-                {{- end }}
-            </p>
-            <p>
-                {{ range $tag := .Params.tags }}
-                <a href='{{ if $isMultiLingual }}
-                    {{ $langNow | relURL}}/tags/{{ $tag | urlize }}
-                {{ else }}
-                    {{ "tags/" | relURL }}{{ $tag | urlize }}
-                {{ end }}'>
-                    <i class="fa fa-tag"></i> {{ . }}
-                </a>
-                {{ end }}
-            </p>
+            <div class="t_center castration cover p_relative atcScreen">
+                <p>
+                    <i class="fa fa-folder"></i>
+                    {{ with .Params.categories }}{{ i18n "postInfo_includedIn" }}:{{ else }}{{ i18n "postInfo_notIncluded" }}{{ end }}
+                    {{ range $idx, $category := .Params.categories }}
+                    {{- if ne $idx 0 }}, {{ end }}
+                    <a href='{{ if $isMultiLingual }}
+                        {{ $langNow | relURL}}/categories/{{ $category | urlize }}
+                    {{ else }}
+                        {{ "categories/" | relURL }}{{ $category | urlize }}
+                    {{ end }}'>
+                        {{ $category }}
+                    </a>
+                    {{- end }}
+                </p>
+                <p>
+                    {{ range $tag := .Params.tags }}
+                    <a href='{{ if $isMultiLingual }}
+                        {{ $langNow | relURL}}/tags/{{ $tag | urlize }}
+                    {{ else }}
+                        {{ "tags/" | relURL }}{{ $tag | urlize }}
+                    {{ end }}'>
+                        <i class="fa fa-tag"></i> {{ . }}
+                    </a>
+                    {{ end }}
+                </p>
+            </div>
         {{ end }}
     </article>
 
