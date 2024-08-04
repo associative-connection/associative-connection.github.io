@@ -44,15 +44,12 @@
     {{ $hero_des = .Site.Params.page.homeContent }}
 {{ end }}
 
-{{ if eq .Kind "home" }}
 <div class="castration base_width p_relative preview">
-    {{ with .Site.Params.page.homeTopImg }}
-    <div class="hero-img-home">
-        <img src="{{ . }}" alt="" />
-     </div>
-     {{ end }}
-<div class="hero-content">
-    {{ $hometitlefontsize := .Site.Params.page.homeTitleFontSize }}
+<div class="t_center b_shadow_brown media_base_width p_relative preview_center">
+
+{{ if eq .Kind "home" }}
+
+{{ $hometitlefontsize := .Site.Params.page.homeTitleFontSize }}
         {{ $homecontentfontsize := .Site.Params.page.homeContentFontSize }}
             {{ with $hero_title }}
             <div class="hometitle" style="font-size: {{ $hometitlefontsize }}px; margin-bottom: 20px;">{{ . | markdownify }}</div>
@@ -63,21 +60,9 @@
         <button class="todown" type="button">
             <i class="fa fa-angle-down fa-3x"></i>
         </button>
-    </div>
-</div>
 
 {{ else if eq .Kind "page" }}
-<div class="castration base_width p_relative preview">
-    {{ with .Params.image }}
-    <div class="hero-img">
-        <img src="{{ . }}" alt="" />
-    </div>
-    {{ else }}
-    <div class="hero-img">
-        <img src="{{ . }}" alt="" />
-    </div>
-    {{ end }}
-    <div class="hero-content">
+
         <div class="hero-title">{{ .Title }}</div>
         <div class="hero-subtitle">{{ .Params.subtitle }}</div>
         <div class="hero-date">
@@ -102,35 +87,16 @@
             <span class="no-wrap"><i class="fa fa-clock-o"></i> {{ i18n "postInfo_readingTime" }}: {{ .ReadingTime }} {{ i18n "postInfo_minute" .ReadingTime }} &nbsp;</span>
             {{ if .Site.Params.footer.visitor }}<span class="no-wrap"><i class="fa fa-eye"></i> {{ i18n "postInfo_viewers" }}: <span id="busuanzi_value_page_pv"></span></span>{{ end }}
         </div>
-    </div>
-</div>
 
 {{ else if or (eq .Kind "section") (eq .Kind "taxonomy") }}
-<div class="castration base_width p_relative preview">
-    {{ with $hero_img }}
-    <div class="hero-img">
-        <img src="{{ . }}" alt="" />
-    </div>
-    {{ end }}
-    <div class="hero-content">
+
         <div class="hero-title">{{ $hero_title }}</div>
         <div>{{ $hero_des }}</div>
-    </div>
-</div>
 
 {{ else if eq .Kind "term" }}
-<div class="castration base_width p_relative preview">
+
     {{ $firstChild := index .Pages 0 }}
-    {{ with $firstChild.Params.image }}
-    <div class="hero-img">
-        <img src="{{ . }}" alt="" />
-    </div>
-    {{ else }}
-    <div class="hero-img">
-        <img src="{{ $hero_img }}" alt="" />
-    </div>
-    {{ end }}
-    <div class="hero-content">
+
         <h1 class="hero-title">{{ $hero_title }}{{ .Title }}</h1>
         <div>
         {{ if eq .Section "categories" }}
@@ -141,6 +107,6 @@
             {{ index .Site.Data.series .Title "seriesDes" }}
         {{ end }}
         </div>
-    </div>
-</div>
 {{ end }}
+
+</div> </div>
