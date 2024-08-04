@@ -37,7 +37,9 @@
         {{ .Content }}
 
         {{ if or .PrevInSection .NextInSection }}
-            {{ partial "widgets/pre-next.html" . }}
+            <p>
+                {{ partial "widgets/pre-next.html" . }}
+            </p>
         {{ end }}
     </article>
 
