@@ -6,9 +6,29 @@
     <article class="aMessage">
         {{ partial "widgets/author-card-small.html" . }}
 
+        <p>
+            <i class="fa fa-pencil"></i> {{ i18n "postInfo_wordsCount" }}: {{ .WordCount }} &nbsp; 
+            <i class="fa fa-clock-o"></i> {{ i18n "postInfo_readingTime" }}: {{ .ReadingTime }} {{ i18n "postInfo_minute" .ReadingTime }} &nbsp; 
+            {{ if .Site.Params.footer.visitor }}
+                <i class="fa fa-eye"></i> {{ i18n "postInfo_viewers" }}: 
+            {{ end }}
+        </p>
+
         {{ .Content }}
 
         {{ if eq .Kind "page" }}
+<p><i class="fa fa-folder"></i>
+                {{ with .Params.categories }}{{ i18n "postInfo_includedIn" }}:{{ else }}{{ i18n "postInfo_notIncluded" }}{{ end }}
+                {{ range $idx, $category := .Params.categories }}
+                {{- if ne $idx 0 }}, {{ end }}
+                <a href='{{ if $isMultiLingual }}
+                    {{ $langNow | relURL}}/categories/{{ $category | urlize }}
+                {{ else }}
+                    {{ "categories/" | relURL }}{{ $category | urlize }}
+                {{ end }}'>
+                    {{ $category }}
+                </a>
+                {{- end }}</p>
             <p>
                 {{ range $tag := .Params.tags }}
                 <a href='{{ if $isMultiLingual }}
