@@ -4,6 +4,8 @@
 
 {{ if $isPage }}
     <article class="aMessage">
+        {{ partial "widgets/author-card-small.html" . }}
+
         {{ .Content }}
 
         {{ if eq .Kind "page" }}
