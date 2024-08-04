@@ -30,12 +30,8 @@ hasCJKLanguage = false
     homeTopImg = "/img/cover/home.jpg"
     # title in home top image, support Markdown
     homeTitle = "Associative Connection"
-    # font size(px)
-    homeTitleFontSize = 40
     # content in home top image, support Markdown
     homeContent = "Be Water, My Friend"
-    # font size(px)
-    homeContentFontSize = 20
     # top image in categories terms page
     categoryTopImg = "/img/cover/categories.jpg"
     # description of categories terms page
