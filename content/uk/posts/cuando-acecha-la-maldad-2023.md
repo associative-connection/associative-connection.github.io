@@ -9,7 +9,7 @@ lastmod: "2024-05-26"
 draft: false
 # one category: ["category-1"]
 # more categories: ["category-1", "category-2", ...]
-categories: []
+categories: ["Movies", "Horror"]
 # refer to categories
 tags: ["hton", "faith", "biohazard", "pandemic", "zombie"]
 # seires

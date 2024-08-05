@@ -76,18 +76,18 @@ hasCJKLanguage = false
         # icon from FontAwesome in front of single entry
         pre = ""
     [[menus.main]]
+        name = "Articles"
+        url = "/articles"
+        weight = 2
+        pre = ""
+    [[menus.main]]
         name = "Collections"
         url = "/series"
-        weight = 2
+        weight = 3
         pre = ""
     [[menus.main]]
         name = "Categories"
         url = "/categories"
-        weight = 3
-        pre = ""
-    [[menus.main]]
-        name = "Articles"
-        url = "/articles"
         weight = 4
         pre = ""
     [[menus.main]]
@@ -133,18 +133,18 @@ hasCJKLanguage = false
                 weight = 1
                 pre = ""
             [[languages.uk.menus.main]]
+                name = "Статті"
+                url = "/uk/articles"
+                weight = 2
+                pre = ""
+            [[languages.uk.menus.main]]
                 name = "Колекції"
                 url = "/uk/series"
-                weight = 2
+                weight = 3
                 pre = ""
             [[languages.uk.menus.main]]
                 name = "Категорії"
                 url = "/uk/categories"
-                weight = 3
-                pre = ""
-            [[languages.uk.menus.main]]
-                name = "Статті"
-                url = "/uk/articles"
                 weight = 4
                 pre = ""
             [[languages.uk.menus.main]]
