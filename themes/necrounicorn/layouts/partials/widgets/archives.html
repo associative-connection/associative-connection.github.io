@@ -6,7 +6,7 @@
         <div class="content-list-col">
             <h3>{{ .Key }}</h3>
             <ul>
-                {{ range and (where .Pages "Type" "posts") (not eq .Section "articles") }}
+                {{ range (where .Pages "Type" "posts") }}
                     {{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromArchives)) }}
                         <li>
 
