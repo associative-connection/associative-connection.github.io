@@ -17,7 +17,6 @@
 
                 {{- partial "header/header.html" . -}}
                 {{ partial "header/search.html" . }}
-                {{ partial "widgets/vars.html" . }}
 
                 {{ partial "widgets/hero.html" . }}
 
@@ -34,6 +33,7 @@
             {{ end }}
 
             {{- partial "footer/hugr-init.html" . -}}
+            {{ partial "widgets/vars.html" . }}
         {{ end }}
 
     </body>
