@@ -6,7 +6,7 @@
         
             {{ partial "widgets/post-card.html" . }}
         
-        {{ else }}
+        {{ else if eq .Section "posts" }}
         {{ partial "widgets/archives.html" . }}
 
         {{ end }}
