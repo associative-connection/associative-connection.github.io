@@ -3,7 +3,10 @@
 
     <section class="castration fl p_relative modules">
 {{ if eq .Section "articles" }}
-
+        {{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromSection)) }}
+            {{ partial "widgets/post-card.html" . }}
+        {{ end }}
+        {{ else }}
         {{ partial "widgets/archives.html" . }}
 
         {{ end }}
