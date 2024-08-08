@@ -2,16 +2,10 @@
     {{ partial "widgets/aside.html" . }}
 
     <section class="castration fl p_relative modules">
-        <div class="content-block">
-            <div class="content-list-col">
-                <ul>
                     {{ if (eq .Section "articles") }}
                         {{ partial "widgets/post-card.html" . }}
-                    {{ else if not (eq $section "articles") }}
+                    {{ else }}
                         {{ partial "widgets/archives.html" . }}
                     {{ end }}
-                </ul>
-            </div>
-        </div>
     </section>
 {{ end }}
