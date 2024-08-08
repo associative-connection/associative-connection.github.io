@@ -5,13 +5,14 @@
         <div class="content-block">
             <div class="content-list-col">
                 <ul>
-                    {{ if (not .Params.hideFromCenter) }}
-                        <li>
-                            {{ range .Pages }}
-                                <a href="{{ .Permalink }}">{{ .Title }}</a>
-                            {{ end }}
-                        </li>
-                    {{ end }}
+        {{$section := .Section}}
+    {{if (eq $section "articles") }}
+        
+            {{ partial "widgets/post-card.html" . }}
+        {{ end }}
+        {{if not (eq $section "articles") }}
+            {{ partial "widgets/archives.html" . }}
+        {{ end }}
                 </ul>
             </div>
         </div>

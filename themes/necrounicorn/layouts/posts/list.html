@@ -3,11 +3,11 @@
 
     <section class="castration fl p_relative modules">
         {{$section := .Section}}
-    {{if (eq .Section "articles") }}
+    {{if (eq $section "articles") }}
         
             {{ partial "widgets/post-card.html" . }}
         {{ end }}
-        {{if (not eq .Section "articles") }}
+        {{if not (eq $section "articles") }}
             {{ partial "widgets/archives.html" . }}
         {{ end }}
     </section>
