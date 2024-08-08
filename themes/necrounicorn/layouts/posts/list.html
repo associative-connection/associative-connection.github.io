@@ -4,11 +4,11 @@
     <section class="castration fl p_relative modules">
 {{ if eq .Kind "section" "articles" }}
         
-            
+            {{ partial "widgets/archives.html" . }}
         
         {{ else }}
-        {{ partial "widgets/archives.html" . }}
-
+        
+{{ partial "widgets/post-card.html" . }}
         {{ end }}
     </section>
 {{ end }}
