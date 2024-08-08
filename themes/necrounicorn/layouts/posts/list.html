@@ -2,13 +2,6 @@
     {{ partial "widgets/aside.html" . }}
 
     <section class="castration fl p_relative modules">
-        {{$section := .Section}}
-    {{if (eq $section "articles") }}
-        
-            {{ partial "widgets/post-card.html" . }}
-        {{ end }}
-        {{if not (eq $section "articles") }}
-            {{ partial "widgets/archives.html" . }}
-        {{ end }}
+        {{ partial "widgets/archives.html" . }}
     </section>
 {{ end }}
