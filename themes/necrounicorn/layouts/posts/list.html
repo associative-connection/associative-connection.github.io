@@ -2,7 +2,7 @@
     {{ partial "widgets/aside.html" . }}
 
     <section class="castration fl p_relative modules">
-        {{ if and (eq .Kind "section") (eq .Section "articles") }}
+        {{ if (eq .Kind "section" "articles") }}
             <p></p>
         {{ else }}
             {{ partial "widgets/archives.html" . }}
