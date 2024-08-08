@@ -69,7 +69,7 @@ hasCJKLanguage = false
 
 [menus]
     [[menus.main]]
-        name = "Home"
+        name = "Root"
         url = "/"
         # order weight, more small more close to left, at least 1
         weight = 1
