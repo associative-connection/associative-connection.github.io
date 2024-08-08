@@ -3,9 +3,9 @@
 
     <section class="castration fl p_relative modules">
         {{ if (eq .Kind "section" "articles") }}
-            <p></p>
-        {{ else }}
             {{ partial "widgets/archives.html" . }}
+        {{ else }}
+            <p></p>
         {{ end }}
     </section>
 {{ end }}
