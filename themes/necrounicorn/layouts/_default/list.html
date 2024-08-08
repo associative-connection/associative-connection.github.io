@@ -2,9 +2,18 @@
     {{ partial "widgets/aside.html" . }}
 
     <section class="castration fl p_relative modules">
-                    {{ if (eq .Section "articles") }}
-                        {{ partial "widgets/post-card.html" . }}
-                    
+        <div class="content-block">
+            <div class="content-list-col">
+                <ul>
+                    {{ if (not .Params.hideFromCenter) }}
+                        <li>
+                            {{ range .Pages }}
+                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            {{ end }}
+                        </li>
                     {{ end }}
+                </ul>
+            </div>
+        </div>
     </section>
 {{ end }}
