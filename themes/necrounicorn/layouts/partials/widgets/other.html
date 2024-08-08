@@ -2,7 +2,7 @@
 {{ $newOrRelated := first .Site.Params.page.maxPageNewestCount .Site.RegularPages }}
 
 {{ if eq .Kind "page" }}
-    {{ $newOrRelated = (where (.Site.RegularPages.Related .) "Type" "posts") | first .Site.Params.page.maxPageRelatedCount }}
+    {{ $newOrRelated = (where (.Site.RegularPages.Related .) "Type" "library") | first .Site.Params.page.maxPageRelatedCount }}
     {{ $newOrRelated_text = i18n "sidebar_relatedPosts" }}
 {{ end }}
 
