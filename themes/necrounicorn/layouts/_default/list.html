@@ -5,14 +5,11 @@
         <div class="content-block">
             <div class="content-list-col">
                 <ul>
-        {{$section := .Section}}
-    {{if (eq $section "articles") }}
-        
-            {{ partial "widgets/post-card.html" . }}
-        {{ end }}
-        {{if not (eq $section "articles") }}
-            {{ partial "widgets/archives.html" . }}
-        {{ end }}
+                    {{ if (eq .Section "articles") }}
+                        {{ partial "widgets/post-card.html" . }}
+                    {{ else if not (eq $section "articles") }}
+                        {{ partial "widgets/archives.html" . }}
+                    {{ end }}
                 </ul>
             </div>
         </div>
