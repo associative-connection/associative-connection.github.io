@@ -81,18 +81,18 @@ hasCJKLanguage = false
         weight = 2
         pre = ""
     [[menus.main]]
-        name = "Collections"
-        url = "/series"
+        name = "Stories"
+        url = "/stories"
         weight = 3
         pre = ""
     [[menus.main]]
-        name = "Categories"
-        url = "/categories"
+        name = "Library"
+        url = "/library"
         weight = 4
         pre = ""
     [[menus.main]]
-        name = "library"
-        url = "/library"
+        name = "Collections"
+        url = "/series"
         weight = 5
         pre = ""
     [[menus.main]]
@@ -138,18 +138,18 @@ hasCJKLanguage = false
                 weight = 2
                 pre = ""
             [[languages.uk.menus.main]]
-                name = "Колекції"
-                url = "/uk/series"
+                name = "Історії"
+                url = "/uk/stories"
                 weight = 3
                 pre = ""
             [[languages.uk.menus.main]]
-                name = "Категорії"
-                url = "/uk/categories"
+                name = "Бібліотека"
+                url = "/uk/library"
                 weight = 4
                 pre = ""
             [[languages.uk.menus.main]]
-                name = "library"
-                url = "/uk/library"
+                name = "Колекції"
+                url = "/uk/series"
                 weight = 5
                 pre = ""
             [[languages.uk.menus.main]]
