@@ -6,7 +6,8 @@
     {{if (eq $section "articles") }}
         
             {{ partial "widgets/post-card.html" . }}
-        {{ else }}
+        {{ end }}
+        {{if not (eq $section "articles") }}
             {{ partial "widgets/archives.html" . }}
         {{ end }}
     </section>
