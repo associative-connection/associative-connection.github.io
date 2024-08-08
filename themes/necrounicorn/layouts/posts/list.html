@@ -2,10 +2,12 @@
     {{ partial "widgets/aside.html" . }}
 
     <section class="castration fl p_relative modules">
+        {{ if eq .Kind "section" }}
         {{ if eq .Section "articles" }}
             <p></p>
         {{ else if eq .Section "posts" }}
             {{ partial "widgets/archives.html" . }}
+        {{ end }}
         {{ end }}
     </section>
 {{ end }}
