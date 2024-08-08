@@ -11,7 +11,7 @@
             {{ partial "widgets/post-card.html" . }}
         {{ end }}
         {{if not (eq $section "articles") }}
-            ...
+            {{ partial "widgets/archives.html" . }}
         {{ end }}
                 </ul>
             </div>
