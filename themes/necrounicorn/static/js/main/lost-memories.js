@@ -19,11 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   // This does not check on the first visit to the page
   // If localStorage have value, hide DOM element
-  if (lS) lost_memories.style.display = 'none';
 
 if (lS.getItem('first-visit') !== false) {
-  lost_memories.style.display = 'none';
-} else {
   lost_memories.style.display = 'block';
+} else {
+  lost_memories.style.display = 'none';
 }
 });
