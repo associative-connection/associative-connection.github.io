@@ -14,15 +14,14 @@ document.addEventListener('DOMContentLoaded', function () {
   open.addEventListener('click', () => {
     // Set value to the localStorage
     localStorage.setItem('first-visit', true);
-    // hide DOM element
+    // show DOM element
     lost_memories.style.display = 'block';
   });
   // This does not check on the first visit to the page
   // If localStorage have value, hide DOM element
-
-if (lS === 'false') {
-  lost_memories.style.display = 'none';
-} else {
-  lost_memories.style.display = 'block';
-}
+  if (lS === 'false') {
+    lost_memories.style.display = 'none';
+  } else {
+    lost_memories.style.display = 'block';
+  }
 });
