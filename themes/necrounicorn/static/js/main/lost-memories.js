@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   open.addEventListener('click', () => {
     // Set value to the localStorage
-    localStorage.setItem('first-visit');
+    localStorage.setItem('first-visit', true);
     // hide DOM element
     lost_memories.style.display = 'block';
   });
