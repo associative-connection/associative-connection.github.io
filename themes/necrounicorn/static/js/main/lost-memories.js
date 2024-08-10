@@ -20,8 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // This does not check on the first visit to the page
   // If localStorage have value, hide DOM element
 
-alert(lS);
-if (lS) {
+if (lS === 'false') {
   lost_memories.style.display = 'none';
 } else {
   lost_memories.style.display = 'block';
