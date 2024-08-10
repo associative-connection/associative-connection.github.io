@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
   if (lS) lost_memories.style.display = 'none';
 
 if (lS.getItem('first-visit') !== false) {
-  lost_memories.style.display = 'block';
-} else {
   lost_memories.style.display = 'none';
+} else {
+  lost_memories.style.display = 'block';
 }
 });
