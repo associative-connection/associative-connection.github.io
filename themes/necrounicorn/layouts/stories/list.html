@@ -1,7 +1,5 @@
 {{ define "main" }}
-    {{ partial "widgets/aside.html" . }}
-
-    <section class="castration fl p_relative modules">
+{{ $kind := .Kind }}
         <div class="content-block">
             <div class="content-list-col">
                 <ul>
@@ -15,5 +13,4 @@
                 </ul>
             </div>
         </div>
-    </section>
 {{ end }}
