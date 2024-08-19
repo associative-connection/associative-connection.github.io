@@ -11,7 +11,7 @@
             {{- partial "footer/main/hugr-init.html" . -}}
         {{ else if eq .Section "stories" }}
             <!-- stories -->
-            {{- block "main" . }}{{- end }}
+            {{- partial "stories.html" . -}}
             {{- partial "footer/stories/hugr-init.html" . -}}
         {{ else }}
             <!-- other -->
