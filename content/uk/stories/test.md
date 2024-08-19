@@ -1,9 +1,9 @@
 ---
 title: "Test"
-date: 2024-08-08T20:49:12+03:00
+date: 2024-08-08
 
 # format for string: "xxxx-xx-xx"
-lastmod: "2024-08-08T20:49:12+03:00"
+lastmod: "2024-08-08"
 
 # set false when you want the post publish
 draft: false
