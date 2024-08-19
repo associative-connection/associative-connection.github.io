@@ -1,11 +1,11 @@
 {{ define "main" }}
                 <ul>
-                    {{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromSection)) }}
+                    
                         <li>
-                            {{ range .Pages }}
+                            
                                 <a href="{{ .Permalink }}">{{ .Title }}</a>
-                            {{ end }}
+                            
                         </li>
-                    {{ end }}
+                    
                 </ul>
 {{ end }}
