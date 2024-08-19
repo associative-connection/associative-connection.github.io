@@ -6,9 +6,14 @@
     <body{{ if eq .Kind "home" }} class="loading"{{ end }}>
 
         {{ if eq .Kind "home" }}
+            <!-- home -->
             {{- partial "home.html" . -}}
             {{- partial "footer/main/hugr-init.html" . -}}
+        {{ else if eq .Section "stories" }}
+            <!-- stories -->
+            {{- partial "stories.html" . -}}
         {{ else }}
+            <!-- other -->
             <div class="base_width p_relative wrap"> <div id="overlay" class="base_width p_fixed"></div>
 
                 <div class="center media_base_width p_relative breadcrumbs" prefix="v: http://rdf.data-vocabulary.org/#">
