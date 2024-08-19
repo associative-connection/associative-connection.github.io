@@ -1,5 +1,11 @@
 {{ define "main" }}
-    <section class="castration fl p_relative modules">
-        {{ partial "widgets/archives.html" . }}
-    </section>
+                <ul>
+                    {{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromSection)) }}
+                        <li>
+                            {{ range .Pages }}
+                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            {{ end }}
+                        </li>
+                    {{ end }}
+                </ul>
 {{ end }}
