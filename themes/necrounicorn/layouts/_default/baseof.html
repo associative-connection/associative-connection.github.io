@@ -12,6 +12,7 @@
         {{ else if eq .Section "stories" }}
             <!-- stories -->
             {{- partial "stories.html" . -}}
+            {{- partial "footer/stories/hugr-init.html" . -}}
         {{ else }}
             <!-- other -->
             <div class="base_width p_relative wrap"> <div id="overlay" class="base_width p_fixed"></div>
