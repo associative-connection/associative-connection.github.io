@@ -1,17 +1,3 @@
 {{ define "main" }}
-<section class="castration fl p_relative modules">
-    <div class="content-block">
-        <div class="content-list-col">
-            <ul>
-                {{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromSection)) }}
-                    <li>sss
-                        {{ range .Pages }}
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
-                        {{ end }}
-                    </li>
-                {{ end }}
-            </ul>
-        </div>
-    </div>
-</section>
+    {{ partial "widgets/stories-card.html" . }}
 {{ end }}

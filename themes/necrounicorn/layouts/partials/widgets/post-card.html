@@ -37,15 +37,15 @@
             {{ end }}
             {{ if eq $tagsCount 1 }}
                 <li>
-                {{ range $tag := .Params.tags }}
-                <a href='{{ if $isMultiLingual }}
-                    {{ $langNow | relURL}}/tags/{{ $tag | urlize }}
-                {{ else }}
-                    {{ "tags/" | relURL }}{{ $tag | urlize }}
-                {{ end }}'>
-                    <i class="fa fa-tag"></i> {{ . }}
-                </a>
-                {{ end }}
+                    {{ range $tag := .Params.tags }}
+                        <a href='{{ if $isMultiLingual }}
+                            {{ $langNow | relURL}}/tags/{{ $tag | urlize }}
+                        {{ else }}
+                            {{ "tags/" | relURL }}{{ $tag | urlize }}
+                        {{ end }}'>
+                            <i class="fa fa-tag"></i> {{ . }}
+                        </a>
+                    {{ end }}
                 </li>
             {{ end }}
         </ul>

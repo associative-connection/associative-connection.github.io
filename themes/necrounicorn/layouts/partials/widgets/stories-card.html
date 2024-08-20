@@ -1,15 +1,9 @@
 <div class="container">
 
-	<header class="clearfix">
-		<h1>Stories</h1>
-		<nav class="codrops-demos">
-			<a class="current-demo" href="index.html">Demo 1</a>
-			<a href="index2.html">Demo 2</a>
-		</nav>
-	</header>
-
 	<div class="main">
 		<ul id="bk-list" class="bk-list clearfix">
+			{{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromSection)) }}
+			{{ range .Pages }}
 			<li>
 				<div class="bk-book book-1 bk-bookdefault">
 					<div class="bk-front">
@@ -54,7 +48,9 @@
 					</h3>
 					<p>Social prophecy? Black comedy? Study of freewill? A Clockwork Orange is all of these. It is also a dazzling experiment in language, as Burghiss creates a new language - 'meow', the cat slang of a not-too-distant future.</p>
 				</div>
+				{{ end }}
 			</li>
+			{{ end }}
 		</ul>
 	</div>
 </div> <!-- /container -->
