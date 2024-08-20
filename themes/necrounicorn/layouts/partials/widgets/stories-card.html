@@ -1,4 +1,3 @@
-{{ $pageTitle := .Page.Title }}
 <div class="container">
 	<div class="main">
 		<ul id="bk-list" class="bk-list clearfix">
@@ -45,7 +44,7 @@
 							<span>Anthony Burghiss</span>
 							<span>A Catwork Orange</span>
 						</h3>
-						<p><a href="{{ .Page.Permalink }}">{{ $pageTitle }}</a></p>
+						<p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
 					</div>
 				</li>
 			{{ end }}
