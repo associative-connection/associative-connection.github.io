@@ -1,7 +1,6 @@
-<div class="container">
-	<div class="main">
-		<ul id="bk-list" class="bk-list clearfix">
-			{{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromSection)) }}
+<div class="main">
+	<ul id="bk-list" class="bk-list clearfix">
+		{{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromSection)) }}
 			{{ range .Pages }}
 				<li>
 					<div class="bk-book book-1 bk-bookdefault">
@@ -46,7 +45,6 @@
 					</div>
 				</li>
 			{{ end }}
-			{{ end }}
-		</ul>
-	</div>
-</div> <!-- /container -->
+		{{ end }}
+	</ul>
+</div>
