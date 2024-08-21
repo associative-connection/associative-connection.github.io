@@ -1,5 +1,7 @@
 .bk-list {
 	list-style: none;
+	flex-wrap: nowrap;
+	display: inherit;
 	position: relative;
 }
 
