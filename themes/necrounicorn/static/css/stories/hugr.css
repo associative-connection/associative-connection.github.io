@@ -105,11 +105,6 @@ a {color: #eee; text-decoration: none;}
 	padding: 0 30px 50px 30px;
 }
 
-.main {
-	overflow-x: scroll;
-	display: flex
-}
-
 .container > header {padding: 30px 30px 40px 30px}
 
 .container > header h1 {
