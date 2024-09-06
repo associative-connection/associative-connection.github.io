@@ -108,14 +108,9 @@ hasCJKLanguage = false
 
     # social, maxum 6
     [[menus.social]]
-        name = "Roblox"
-        url = "https://www.roblox.com/groups/34302865/The-Adventures-of-Sirenhead-and-Pan-Tykhon"
-        weight = 1
-        pre = ""
-    [[menus.social]]
         name = "YouTube"
         url = "https://www.youtube.com/@spirits-show"
-        weight = 2
+        weight = 1
         pre = "<i class='fa fa-youtube'></i>"
 
 [languages]
@@ -186,7 +181,7 @@ hasCJKLanguage = false
                 weight = 3
 
 [author]
-    name = "Sam"
+    name = "Ruslan D."
     description = "Be Water, My Friend."
     # profile photo of author in author card
     image = "/img/author.jpeg"
