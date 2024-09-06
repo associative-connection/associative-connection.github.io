@@ -186,7 +186,7 @@ hasCJKLanguage = false
     # profile photo of author in author card
     image = "/img/author.jpeg"
     # link of followme in author card and footer
-    link = "https://github.com/vsezlotov"
+    link = "https://www.linkedin.com/in/ruslan-dubinetsky/"
 
 # Taxonomies, Currently, only the following 3 taxonomies are supported
 # If you don't want one of them，delete it in [menus] instead here
