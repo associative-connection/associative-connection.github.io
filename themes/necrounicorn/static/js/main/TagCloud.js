@@ -2,7 +2,7 @@ window.onload = function() {
 	try {
 		TagCanvas.Start('root', 'memory_root', {
 			activeAudio: true, 
-			audioVolume: '2.0', 
+			audioVolume: '1.0', 
 			dragControl: true, 
 			initial: [0.030, -0.070], 
 			lock: 'xy', 
