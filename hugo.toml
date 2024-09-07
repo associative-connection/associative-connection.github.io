@@ -91,8 +91,8 @@ hasCJKLanguage = false
         weight = 4
         pre = ""
     [[menus.main]]
-        name = "Library"
-        url = "/library"
+        name = "About"
+        url = "/about"
         weight = 5
         pre = ""
     [[menus.main]]
@@ -101,8 +101,8 @@ hasCJKLanguage = false
         weight = 6
         pre = ""
     [[menus.main]]
-        name = "About"
-        url = "/about"
+        name = "Library"
+        url = "/library"
         weight = 7
         pre = ""
 
@@ -148,8 +148,8 @@ hasCJKLanguage = false
                 weight = 4
                 pre = ""
             [[languages.uk.menus.main]]
-                name = "Бібліотека"
-                url = "/uk/library"
+                name = "Про нас"
+                url = "/uk/about"
                 weight = 5
                 pre = ""
             [[languages.uk.menus.main]]
@@ -158,8 +158,8 @@ hasCJKLanguage = false
                 weight = 6
                 pre = ""
             [[languages.uk.menus.main]]
-                name = "Про нас"
-                url = "/uk/about"
+                name = "Бібліотека"
+                url = "/uk/library"
                 weight = 7
                 pre = ""
 
