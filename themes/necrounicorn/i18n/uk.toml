@@ -5,8 +5,8 @@
 	other = 'All Posts'
 
 # String in Posts
-[Posts_allPosts]
-	other = 'all Posts'
+[Posts_libraryPosts]
+	other = 'Library'
 
 # String in Articles
 [Articles_articles]
