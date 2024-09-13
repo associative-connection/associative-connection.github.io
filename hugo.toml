@@ -10,6 +10,8 @@ baseURL = 'https://associative-connection.github.io/'
 title = 'Associative Connection'
 # theme
 theme = "necrounicorn"
+#mystery
+disableHugoGeneratorInject = false
 # whether to use robots.txt
 enableRobotsTXT = true
 # length of summary
