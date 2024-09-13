@@ -2,9 +2,8 @@
 {{ $langNow := .Lang }}
 {{ $isMultiLingual := and (ne .Site.Language.Weight 1) (and .Site.IsMultiLingual (not .Site.Params.Site.OnlyOneLang)) }}
 {{ $includedIn := "newnewnew" }}
-{{ $currentLangPages := where $libraryPages ".Lang" .Site.Language.Lang }} <!-- Фильтруем по текущему языку -->
+{{ $currentLangPages := where $libraryPages ".Lang" .Site.Language.Lang }}
 {{ $groups := $currentLangPages.GroupByDate "2006" }}
-
 <!-- Создаем пагинатор для групп по годам -->
 {{ $paginator := .Paginate $groups }}
 
@@ -87,16 +86,47 @@
 
                         </li>
                     {{ end }}
-               
-            
-
-  {{ end }}</ul>
-          </div>
+                {{ end }}
+            </ul>
+        </div>
     </div>
 {{ end }}
 
+
+{{ $lastGroup := "" }}
+{{ $firstNextGroup := "" }}
+
+<!-- Если есть группы на текущей странице -->
+{{ if gt (len .Paginator.PageGroups) 0 }}
+    <!-- Получаем последнюю группу на текущей странице -->
+    {{ $lastGroup = index .Paginator.PageGroups (sub (len .Paginator.PageGroups) 1) }}
+    <!-- Выводим название последней группы (ключ) -->
+    <!-- <p>Последняя группа на текущей странице: {{ $lastGroup.Key }}</p> -->
+{{ end }}
+
+<!-- Проверяем, существует ли следующая страница -->
+{{ $followingPage := .Paginator.Next }}
+
+{{ if $followingPage }}
+    <!-- Получаем группы на следующей странице -->
+    {{ $followingPageGroups := $followingPage.PageGroups }}
+    <!-- Если есть группы на следующей странице -->
+    {{ if gt (len $followingPageGroups) 0 }}
+        <!-- Получаем первую группу на следующей странице -->
+        {{ $firstNextGroup = index $followingPageGroups 0 }}
+        <!-- Выводим название первой группы на следующей странице -->
+        <!-- <p>Первая группа на следующей странице: {{ $firstNextGroup.Key }}</p> -->
+    {{ end }}
+{{ end }}
+
+<!-- Сравнение названий последней группы на текущей странице с первой группой на следующей -->
+{{ if and (ne $lastGroup "") (ne $firstNextGroup "") (eq $lastGroup.Key $firstNextGroup.Key) }}
+    <p>Продолжение материалов за {{ $lastGroup.Key }} на следующей странице</p>
+{{ else if and (ne $lastGroup "") (ne $firstNextGroup "") }}
+    <!-- <p>Группы на текущей и следующей страницах не совпадают</p> -->
+{{ end }}
+
+
+
 <!-- Вывод элементов пагинации -->
 {{ template "_internal/pagination.html" . }}
-
-
-
