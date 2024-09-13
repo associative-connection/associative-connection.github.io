@@ -11,7 +11,7 @@ title = 'Associative Connection'
 # theme
 theme = "necrounicorn"
 #mystery
-disableHugoGeneratorInject = false
+disableHugoGeneratorInject = true
 # whether to use robots.txt
 enableRobotsTXT = true
 # length of summary
