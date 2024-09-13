@@ -1,6 +1,13 @@
 <section id="lost_memories" class="t_center lost_memories">
 
-	<p></p>
+    {{ $post := .Site.GetPage "page/projects" }}
+    {{ if $post }}
+        <h1>{{ $post.Title }}</h1>
+        <div>{{ $post.Content }}</div>
+    {{ else }}
+        <p>Пост не найден.</p>
+    {{ end }}
+
 	<button id="cancel" class="cancel">Go</button>
 
 	<div class="outro">
