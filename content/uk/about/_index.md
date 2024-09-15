@@ -20,6 +20,6 @@ image: ""
 hideFromHomePage: false
 ---
 test text
-
+{{< show-main-post path="page/projects" >}}
 <!--more-->
 

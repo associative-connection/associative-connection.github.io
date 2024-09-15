@@ -1,8 +1,8 @@
 <section id="lost_memories" class="t_center lost_memories">
 
-{{ $shortcode := printf "{{< show-main-post path=\"%s\" >}}" "page/projects" }}
-{{ $renderedContent := $shortcode | .Page.RenderString }}
-{{ $renderedContent }}
+    {{ $shortcode := printf "{{< show-main-post path=\"%s\" >}}" "page/projects" }}
+        {{ $renderedContent := $shortcode | .Page.RenderString }}
+    {{ $renderedContent }}
 
 	<button id="cancel" class="cancel">Go</button>
 
