@@ -1,23 +1,5 @@
 <!--
 //
-//  OUTPUT POSTS
-//––––––––––––––––––––––––––––––––––––––––––––––––––
--->
-{{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
-
-{{ range $paginator.Pages }}
-  <div class="post">
-    <h2 class="post__title">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </h2>
-    <div class="post__summary">
-      {{ .Summary }}
-    </div>
-  </div>
-{{ end }}
-
-<!--
-//
 //  PAGE NUMBERS
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 -->
@@ -38,12 +20,12 @@
 <!-- If there's more than one page. -->
 {{ if gt $paginator.TotalPages 1 }}
 
-  <ul class="pagination">
+  <ul class="not_twitch">
     
     <!-- First page. -->
     {{ if ne $paginator.PageNumber 1 }}
-    <li class="pagination__item pagination__item--first">
-      <a class="pagination__link pagination__link--first" href="{{ $paginator.First.URL }}">
+    <li class="page-numbers pagination__item--first">
+      <a class="page-numbers pagination__link--first" href="{{ $paginator.First.URL }}">
         ««
       </a>
     </li>
@@ -51,8 +33,8 @@
 
     <!-- Previous page. -->
     {{ if $paginator.HasPrev }}
-    <li class="pagination__item pagination__item--previous">
-      <a href="{{ $paginator.Prev.URL }}" class="pagination__link pagination__link--previous">
+    <li class="page-numbers pagination__item--previous">
+      <a href="{{ $paginator.Prev.URL }}" class="page-numbers pagination__link--previous">
         «
       </a>
     </li>
@@ -107,8 +89,8 @@
 
       <!-- Output page numbers. -->
       {{ if eq ($.Scratch.Get "page_number_flag") true }}
-        <li class="pagination__item{{ if eq . $paginator }} pagination__item--current{{ end }}">
-          <a href="{{ .URL }}" class="pagination__link">
+        <li class="page-numbers{{ if eq . $paginator }} pagination__item--current{{ end }}">
+          <a href="{{ .URL }}" class="page-numbers">
             {{ .PageNumber }}
           </a>
         </li>
@@ -118,8 +100,8 @@
 
     <!-- Next page. -->
     {{ if $paginator.HasNext }}
-    <li class="pagination__item pagination__item--next">
-      <a href="{{ $paginator.Next.URL }}" class="pagination__link pagination__link--next">
+    <li class="page-numbers pagination__item--next">
+      <a href="{{ $paginator.Next.URL }}" class="page-numbers pagination__link--next">
         »
       </a>
     </li>
@@ -127,8 +109,8 @@
 
     <!-- Last page. -->
     {{ if ne $paginator.PageNumber $paginator.TotalPages }}
-    <li class="pagination__item pagination__item--last">
-      <a class="pagination__link pagination__link--last" href="{{ $paginator.Last.URL }}">
+    <li class="page-numbers pagination__item--last">
+      <a class="page-numbers pagination__link--last" href="{{ $paginator.Last.URL }}">
         »»
       </a>
     </li>
