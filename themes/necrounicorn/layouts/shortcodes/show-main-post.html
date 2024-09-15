@@ -1,7 +1,8 @@
-{{ $post := .Page.Site.GetPage "page/projects" }}
-{{ if $post }}
-	<h2>{{ $post.Title }}</h2>
-	<div>{{ $post.Content }}</div>
-{{ else }}
-	<p>Пост не найден</p>
-{{ end }}
+{{- $postPath := .Get "path" -}}
+{{- $post := .Site.GetPage $postPath -}}
+{{- if $post -}}
+    <h2>{{ $post.Title }}</h2>
+    <div>{{ $post.Content }}</div>
+{{- else -}}
+    <p>Пост по пути "{{ $postPath }}" не найден.</p>
+{{- end -}}

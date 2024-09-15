@@ -1,12 +1,6 @@
 <section id="lost_memories" class="t_center lost_memories">
 
-{{ $post := .Page.Site.GetPage "page/projects" }}
-{{ if $post }}
-    <h2>{{ $post.Title }}</h2>
-    <div>{{ $post.Content }}</div>
-{{ else }}
-    <p>Пост не найден</p>
-{{ end }}
+{{< show-post path="posts/my-post" >}}
 
 	<button id="cancel" class="cancel">Go</button>
 
