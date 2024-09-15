@@ -23,5 +23,5 @@ hideFromArchives: true
 # Hide from everything but the archive
 hideFromSection: true
 ---
-
+{{< show-main-post path="page/projects" >}}
 <!--more-->
