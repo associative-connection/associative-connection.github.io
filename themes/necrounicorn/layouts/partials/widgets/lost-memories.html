@@ -1,6 +1,8 @@
 <section id="lost_memories" class="t_center lost_memories">
 
-{{- partial "shortcodes/show-main-post" (dict "path" "page/projects" "context" .) . -}}
+{{ $shortcode := printf "{{< show-main-post path=\"%s\" >}}" "page/projects" }}
+{{ $renderedContent := $shortcode | .Page.RenderString }}
+{{ $renderedContent }}
 
 	<button id="cancel" class="cancel">Go</button>
 
