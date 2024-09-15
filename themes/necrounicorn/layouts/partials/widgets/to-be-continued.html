@@ -18,7 +18,9 @@
 {{ end }}
 <!-- Сравнение названий последней группы на текущей странице с первой группой на следующей -->
 {{ if and (ne $lastGroup "") (ne $firstNextGroup "") (eq $lastGroup.Key $firstNextGroup.Key) }}
-    <p>Продолжение материалов за {{ $lastGroup.Key }} на следующей странице</p>
+    <div class="t_center castration cover p_relative atcScreen">
+        <p>Продолжение материалов за {{ $lastGroup.Key }} на следующей странице</p>
+    </div>
 {{ else if and (ne $lastGroup "") (ne $firstNextGroup "") }}
     <!-- <p>Группы на текущей и следующей страницах не совпадают</p> -->
 {{ end }}
