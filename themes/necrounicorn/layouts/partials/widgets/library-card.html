@@ -4,109 +4,97 @@
 {{ $includedIn := "newnewnew" }}
 {{ $currentLangPages := where $libraryPages ".Lang" .Site.Language.Lang }}
 {{ $groups := $currentLangPages.GroupByDate "2006" }}
-<!-- Создаем пагинатор для групп по годам -->
+<!-- Paginator for year groups -->
 {{ $paginator := .Paginate $groups }}
-
-<!-- Итерация по годам на каждой странице -->
+<!-- Iterate by year on each page -->
 {{ range $paginator.PageGroups }}
     <div class="content-block">
         <div class="content-list-col">
             <h3>{{ .Key }}</h3>
-  <ul>
-  <!-- Выводим все посты за выбранный год -->
-  {{ range .Pages }}
-                    {{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromArchives)) }}
-                        <li>
-
-                            <a href="{{ .RelPermalink }}">
-                                {{ with .Params.image }}
-                                    <div class="castration" style="display: inline-block; width: 30px; height: 30px; border-radius: 50%; vertical-align: middle;">
-                                        <img style="width: 100%; min-height: 100%;" src="{{ . }}" alt='{{ i18n "imageLoadingFailed" }}'> 
-                                    </div>
-                                {{ end }}
-                                {{ .Title }}
-                            </a>
-
-                            <ul class="grid_info">
-                                <li><i class="fa fa-calendar-check-o"></i> {{ i18n "postInfo_updatedOn" }}: {{ .Lastmod.Format "2006-1-2" }}</li>
-                                <li><i class="fa fa-folder"></i>
-                                    {{ with .Params.categories }}
-                                    {{ i18n "postInfo_includedIn" }}:
-                                        {{ range $idx, $category := . }}
-                                        {{- if ne $idx 0 }}, {{ end }}
-                                        <a href='{{ if $isMultiLingual }}
-                                            {{ $langNow | relURL}}/categories/{{ $category | urlize }}
-                                        {{ else }}
-                                            {{ "categories/" | relURL }}{{ $category | urlize }}
-                                        {{ end }}'>
-                                            {{ $category }}
-                                        </a>
-                                        {{- end }}
-                                    {{ else }}
-                                        {{ i18n "postInfo_notIncluded" }}
-                                    {{ end }}
-                                </li>
-
-                                {{ $tagsCount := 0 }}
-                                {{ with .Params.tags }}
-                                    {{ $tagsCount = 1 }}
-                                {{ end }}
-                                {{ if eq $tagsCount 1 }}
-                                    <li>
-                                    {{ range $tag := .Params.tags }}
-                                    <a href='{{ if $isMultiLingual }}
-                                        {{ $langNow | relURL}}/tags/{{ $tag | urlize }}
-                                    {{ else }}
-                                        {{ "tags/" | relURL }}{{ $tag | urlize }}
-                                    {{ end }}'>
-                                        <i class="fa fa-tag"></i> {{ . }}
-                                    </a>
-                                    {{ end }}
-                                    </li>
-                                {{ end }}
-
-                                {{ $seriesCount := 0 }}
-                                {{ with .Params.series }}
-                                    {{ $seriesCount = 1 }}
-                                {{ end }}
-                                {{ if eq $seriesCount 1 }}
-                                    <li>
-                                    {{ range $series := .Params.series }}
-                                    <a href='{{ if $isMultiLingual }}
-                                        {{ $langNow | relURL}}/series/{{ $series | urlize }}
-                                    {{ else }}
-                                        {{ "series/" | relURL }}{{ $series | urlize }}
-                                    {{ end }}'>
-                                        <i class="fa fa-tag"></i> {{ . }}
-                                    </a>
-                                    {{ end }}
-                                    </li>
-                                {{ end }}
-                            </ul>
-
-                        </li>
-                    {{ end }}
+            <ul>
+            <!-- Display all posts for the selected year -->
+            {{ range .Pages }}
+                {{ if or (and (not .Params.hideFromCenter) (not .Params.hideFromArchives)) }}
+                    <li>
+                        <a href="{{ .RelPermalink }}">
+                            {{ with .Params.image }}
+                                <div class="castration" style="display: inline-block; width: 30px; height: 30px; border-radius: 50%; vertical-align: middle;">
+                                    <img style="width: 100%; min-height: 100%;" src="{{ . }}" alt='{{ i18n "imageLoadingFailed" }}'>
+                                </div>
+                            {{ end }}
+                            {{ .Title }}
+                        </a>
+<!-- grid_info : start -->
+<ul class="grid_info">
+    <li><i class="fa fa-calendar-check-o"></i> {{ i18n "postInfo_updatedOn" }}: {{ .Lastmod.Format "2006-1-2" }}</li>
+    <li><i class="fa fa-folder"></i>
+        {{ with .Params.categories }}
+            {{ i18n "postInfo_includedIn" }}:
+                {{ range $idx, $category := . }}
+                    {{- if ne $idx 0 }}, {{ end }}
+                        <a href='{{ if $isMultiLingual }}
+                            {{ $langNow | relURL}}/categories/{{ $category | urlize }}
+                        {{ else }}
+                            {{ "categories/" | relURL }}{{ $category | urlize }}
+                        {{ end }}'>
+                        {{ $category }}
+                        </a>
+                    {{- end }}
+            {{ else }}
+                {{ i18n "postInfo_notIncluded" }}
+            {{ end }}
+    </li>
+    {{ $tagsCount := 0 }}
+    {{ with .Params.tags }}
+        {{ $tagsCount = 1 }}
+    {{ end }}
+    {{ if eq $tagsCount 1 }}
+        <li>
+            {{ range $tag := .Params.tags }}
+                <a href='{{ if $isMultiLingual }}
+                    {{ $langNow | relURL}}/tags/{{ $tag | urlize }}
+                {{ else }}
+                    {{ "tags/" | relURL }}{{ $tag | urlize }}
+                {{ end }}'> <i class="fa fa-tag"></i> {{ . }}
+                </a>
+            {{ end }}
+        </li>
+    {{ end }}
+    {{ $seriesCount := 0 }}
+    {{ with .Params.series }}
+        {{ $seriesCount = 1 }}
+    {{ end }}
+    {{ if eq $seriesCount 1 }}
+        <li>
+            {{ range $series := .Params.series }}
+                <a href='{{ if $isMultiLingual }}
+                    {{ $langNow | relURL}}/series/{{ $series | urlize }}
+                {{ else }}
+                    {{ "series/" | relURL }}{{ $series | urlize }}
+                {{ end }}'> <i class="fa fa-tag"></i> {{ . }}
+                </a>
+            {{ end }}
+        </li>
+    {{ end }}
+</ul>
+<!-- grid_info : done -->
+                    </li>
                 {{ end }}
+            {{ end }}
             </ul>
         </div>
     </div>
 {{ end }}
 
-
 {{ $lastGroup := "" }}
 {{ $firstNextGroup := "" }}
-
 <!-- Если есть группы на текущей странице -->
 {{ if gt (len .Paginator.PageGroups) 0 }}
     <!-- Получаем последнюю группу на текущей странице -->
     {{ $lastGroup = index .Paginator.PageGroups (sub (len .Paginator.PageGroups) 1) }}
-    <!-- Выводим название последней группы (ключ) -->
-    <!-- <p>Последняя группа на текущей странице: {{ $lastGroup.Key }}</p> -->
 {{ end }}
-
 <!-- Проверяем, существует ли следующая страница -->
 {{ $followingPage := .Paginator.Next }}
-
 {{ if $followingPage }}
     <!-- Получаем группы на следующей странице -->
     {{ $followingPageGroups := $followingPage.PageGroups }}
@@ -114,19 +102,13 @@
     {{ if gt (len $followingPageGroups) 0 }}
         <!-- Получаем первую группу на следующей странице -->
         {{ $firstNextGroup = index $followingPageGroups 0 }}
-        <!-- Выводим название первой группы на следующей странице -->
-        <!-- <p>Первая группа на следующей странице: {{ $firstNextGroup.Key }}</p> -->
     {{ end }}
 {{ end }}
-
 <!-- Сравнение названий последней группы на текущей странице с первой группой на следующей -->
 {{ if and (ne $lastGroup "") (ne $firstNextGroup "") (eq $lastGroup.Key $firstNextGroup.Key) }}
     <p>Продолжение материалов за {{ $lastGroup.Key }} на следующей странице</p>
 {{ else if and (ne $lastGroup "") (ne $firstNextGroup "") }}
     <!-- <p>Группы на текущей и следующей страницах не совпадают</p> -->
 {{ end }}
-
-
-
 <!-- Вывод элементов пагинации -->
-{{ template "_internal/pagination.html" . }}
+{{- partial "pagination.html" . -}}
