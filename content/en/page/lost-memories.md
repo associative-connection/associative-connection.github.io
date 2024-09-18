@@ -105,7 +105,7 @@ Hovering over one of the tags imitating double strands of DNA will play a refrai
 **Describing test tube shots as a reference to tasting alcohol sets**
 
 <div>
-  <p>Это текст внутри div.</p>
+<p>Это текст внутри div.</p>
 </div>
 
 The first is Propellerhead (the same one that was in Frankenstein's Army and later appeared in Resident Evil: Village).  
