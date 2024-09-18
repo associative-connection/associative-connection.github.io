@@ -1,5 +1,5 @@
 ---
-title: "Lost Memories: Main Page"
+title: "Lost Memories*: Main Page"
 date: 2024-09-18
 
 # format for string: "xxxx-xx-xx"
@@ -23,9 +23,7 @@ hideFromArchives: true
 # Hide from everything but the archive
 hideFromSection: true
 ---
-## Lost Memories\*: Main Page
-
-*\*A reference to Lost Memories of Silent Hill\**
+*\*Reference to Lost Memories of Silent Hill\**
 
 Hi, my name is Ruslan. In this text I'm talking about the main page of Associative Connection – a site dedicated to three subgenres of Cyberpunk: Biopunk, Mythpunk, Dreampunk, as well as the horror genre.
 
