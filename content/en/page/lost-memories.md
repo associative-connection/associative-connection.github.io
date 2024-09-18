@@ -101,11 +101,10 @@ Sometimes a biological weapon causes hallucinations and stupefied victims believ
 
 So, the Spirits Shopw section is dedicated to dope, the extent of which subsequently influenced the social order of society.
 
-**Copywrites**
+**Copywrites**  
 Hovering over one of the tags imitating double strands of DNA will play a refrain of an old American children's song used in one of my favorite games – RE 7\.
 
-**Describing test tube shots as a reference to tasting alcohol sets**
-
+**Describing test tube shots as a reference to tasting alcohol sets**  
 The first is Propellerhead (the same one that was in Frankenstein's Army and later appeared in Resident Evil: Village).  
 The second is the cover of the movie Gothic (1986), featuring Natasha Richardson as Mary Shelley. The cover in its turn almost exactly repeats the plot of The Nightmare (1781), which according to some critics foreshadowed Jungian ideas about the unconscious.  
 The third is a movie adaptation of Lovecraft's story about Herbert Wells, who parodying Frankenstein: or, Shelley's The Modern Prometheus created the "first zombies" (a dead body animated through chemistry, not as in the case of Shelley's monster – a dead body raised by electricity).
@@ -180,14 +179,11 @@ So, the Culture section is devoted to the conditions and events that provoke to 
 **Copywrites**  
 Hovering over one of the tags in the roundelay will play the final verse of the song Sonne by Rammstein in Skold's rendition. I will remind you that musicians far from immediately settled on the idea of the video, where industrialization, folklore and drugs are in the center. The sun could have been dedicated to the bombing of Hiroshima and Nagasaki, which I mention in my other post.
 
-**Frame Description**
-
+**Frame Description**  
 The first one is American Horror Story, Freak Show.  
 The second is Ash's girlfriend's head in a vice-like grip flirting with her beau.  
-The third is like a mirror image of the first foot, but here the heel is the sixth toe in Grendel's mother's foot, fathered by the seduced Beowulf from the 2007 animation.
-
-The first row is devoted to necrofetishism and folklore.
-
+The third is like a mirror image of the first foot, but here the heel is the sixth toe in Grendel's mother's foot, fathered by the seduced Beowulf from the 2007 animation.  
+The first row is devoted to necrofetishism and folklore.  
 The fourth is Carpenter's Viking meets The Thing from the comic book The Thing From Another World (1991).  
 The fifth is my (I can't draw) drawing of a mechanized Hela inspired by Metropolis from my Fallout 4 Survivor fanfic story. Deciding to Ukrainianize the cyborg a bit, I put a wreath of flowers on her head.  
 The seventh is Naru, who challenged the Predator in Prey. My Hela's lasers from above seem to be sliding on the forehead of the girl below, although I added Naru not only for the sake of completeness of the picture, but simply as an example of the people who learned militarism.  
@@ -230,8 +226,7 @@ So, the third section summarizes all of the above with a disappointing diagnosis
 **Copywrites**  
 When you select one of the two tags, the chorus of Sweet Dreams performed by Marilyn Manson with acoustic accompaniment by Tyler Bates is played. By the way, earlier Sweet Dreams performed by the singer was played at the end of the movie House on Haunted Hill (1999).
 
-**Frame Description
-
+**Frame Description**  
 Here they are not ordered, but chaotically scattered. Among them:
 
 The gateway to Arkham Asylum.  
