@@ -105,52 +105,91 @@ Hovering over one of the tags imitating double strands of DNA will play a refrai
 **Describing test tube shots as a reference to tasting alcohol sets**
 
 <div class="outro">
-		<div class="card-wrap">
-			<div class="card">
-				<a href="#" class="card__image" style="
-                background-image: url(/img/main/dreams/001.png)"></a>
-                <h3 class="card__title">
-                	<a href="#">Post</a>
-                </h3>
-            </div>
-            <div class="card">
-            	<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png);"></a>
-            	<h3 class="card__title">
-            		<a href="#">Post</a>
-            	</h3>
-            </div>
-            <div class="card">
-            	<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png);"></a>
-            	<h3 class="card__title">
-            		<a href="#">Post</a>
-            	</h3>
-            </div>
-        </div>
-    </div>
-
-The first is Propellerhead (the same one that was in Frankenstein's Army and later appeared in Resident Evil: Village).  
-The second is the cover of the movie Gothic (1986), featuring Natasha Richardson as Mary Shelley. The cover in its turn almost exactly repeats the plot of The Nightmare (1781), which according to some critics foreshadowed Jungian ideas about the unconscious.  
-The third is a movie adaptation of Lovecraft's story about Herbert Wells, who parodying Frankenstein: or, Shelley's The Modern Prometheus created the "first zombies" (a dead body animated through chemistry, not as in the case of Shelley's monster – a dead body raised by electricity).
-
-In the front row in the center is Shelley, and flanked by creatives inspired by her monster.
-
-Fourth is a screenshot from the comic strip Freeze.Shut up.  
-The fifth is a fan animation of Dimitrescu found on a porn site. For the sake of comedy, I blurred her nipples at the same moment making them rated lower (oh, yeah).  
-Sixth is the cover of the second episode of the series Temple on the Pogost. Temple on the Pogost – my old story originally dedicated to the god Surt, on the basis of which I started filming a series in Minecraft, link to the project. Because of the war in Ukraine, this project has been greatly transformed and the epicenter of events has become post-apocalyptic Russia, but I don't feel like continuing it. Most likely I will rework this story and it will become a satirical horror quest.
-
-In the second row, in the center is an example of people's sighing for biological weapons, Alsina Dimitrescu, and flanked by examples of what a post-apocalyptic world might look like.
-
-Seven is an almost indecipherable box of mentats from Fallout.  
-Eighth is the gorgeous Sarah Brightman from the film adaptation of Repo\! The Genetic Opera.  
-The ninth is Jacob's glitch from the movie Jacob's Ladder.
-
-The third row is quite devoted to the consequences, legalization of drugs and their use at the state level.
-
-Tenth is Mardroeme from The Whiter.  
-The eleventh is Little Joe.  
-The twelfth is The rat king from The Last of Us.
-
-The last, fourth row is about mushrooms, continuing and developing the idea of the effects of narcotic drugs, but mushrooms have a different tone in culture, which I describe in more detail in my article on horror and drugs.
+	<div class="card-wrap">
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">The first is Propellerhead (the same one that was in Frankenstein's Army and later appeared in Resident Evil: Village).</a>
+			</h3>
+		</div>
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">The second is the cover of the movie Gothic (1986), featuring Natasha Richardson as Mary Shelley. The cover in its turn almost exactly repeats the plot of The Nightmare (1781), which according to some critics foreshadowed Jungian ideas about the unconscious.</a>
+			</h3>
+		</div>
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">The third is a movie adaptation of Lovecraft's story about Herbert Wells, who parodying Frankenstein: or, Shelley's The Modern Prometheus created the "first zombies" (a dead body animated through chemistry, not as in the case of Shelley's monster – a dead body raised by electricity).</a>
+			</h3>
+		</div>
+	</div>
+	<p>In the front row in the center is Shelley, and flanked by creatives inspired by her monster.</p>
+	<div class="card-wrap">
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">Fourth is a screenshot from the comic strip Freeze.Shut up.</a>
+			</h3>
+		</div>
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">The fifth is a fan animation of Dimitrescu found on a porn site. For the sake of comedy, I blurred her nipples at the same moment making them rated lower (oh, yeah).</a>
+			</h3>
+		</div>
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">Sixth is the cover of the second episode of the series Temple on the Pogost. Temple on the Pogost – my old story originally dedicated to the god Surt, on the basis of which I started filming a series in Minecraft, link to the project. Because of the war in Ukraine, this project has been greatly transformed and the epicenter of events has become post-apocalyptic Russia, but I don't feel like continuing it. Most likely I will rework this story and it will become a satirical horror quest.</a>
+			</h3>
+		</div>
+	</div>
+	<p>In the second row, in the center is an example of people's sighing for biological weapons, Alsina Dimitrescu, and flanked by examples of what a post-apocalyptic world might look like.</p>
+	<div class="card-wrap">
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">Seven is an almost indecipherable box of mentats from Fallout.</a>
+			</h3>
+		</div>
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">Eighth is the gorgeous Sarah Brightman from the film adaptation of Repo\! The Genetic Opera.</a>
+			</h3>
+		</div>
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">The ninth is Jacob's glitch from the movie Jacob's Ladder.</a>
+			</h3>
+		</div>
+	</div>
+	<p>The third row is quite devoted to the consequences, legalization of drugs and their use at the state level.</p>
+	<div class="card-wrap">
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">Tenth is Mardroeme from The Whiter.</a>
+			</h3>
+		</div>
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">The eleventh is Little Joe.</a>
+			</h3>
+		</div>
+		<div class="card">
+			<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png)"></a>
+			<h3 class="card__title">
+				<a href="#">The twelfth is The rat king from The Last of Us.</a>
+			</h3>
+		</div>
+	</div>
+	<p>The last, fourth row is about mushrooms, continuing and developing the idea of the effects of narcotic drugs, but mushrooms have a different tone in culture, which I describe in more detail in my article on horror and drugs.</p>
+</div>
 
 The passover here is something that may not be immediately noticeable: in each of the rows, something related to beauty stands in the very center. In the first three rows there are women, in the last row there is a flower.
 
