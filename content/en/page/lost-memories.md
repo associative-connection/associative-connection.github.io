@@ -105,7 +105,6 @@ Hovering over one of the tags imitating double strands of DNA will play a refrai
 **Describing test tube shots as a reference to tasting alcohol sets**
 
 <div class="outro">
-		<h2 class="outro__title">More you might like</h2>
 		<div class="card-wrap">
 			<div class="card">
 				<a href="#" class="card__image" style="
