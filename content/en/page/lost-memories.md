@@ -102,7 +102,33 @@ So, the Spirits Shopw section is dedicated to dope, the extent of which subseque
 **Copywrites**  
 Hovering over one of the tags imitating double strands of DNA will play a refrain of an old American children's song used in one of my favorite games – RE 7\.
 
-**Describing test tube shots as a reference to tasting alcohol sets**  
+**Describing test tube shots as a reference to tasting alcohol sets**
+
+<div class="outro">
+		<h2 class="outro__title">More you might like</h2>
+		<div class="card-wrap">
+			<div class="card">
+				<a href="#" class="card__image" style="
+                background-image: url(/img/main/dreams/001.png)"></a>
+                <h3 class="card__title">
+                	<a href="#">Post</a>
+                </h3>
+            </div>
+            <div class="card">
+            	<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png);"></a>
+            	<h3 class="card__title">
+            		<a href="#">Post</a>
+            	</h3>
+            </div>
+            <div class="card">
+            	<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png);"></a>
+            	<h3 class="card__title">
+            		<a href="#">Post</a>
+            	</h3>
+            </div>
+        </div>
+    </div>
+
 The first is Propellerhead (the same one that was in Frankenstein's Army and later appeared in Resident Evil: Village).  
 The second is the cover of the movie Gothic (1986), featuring Natasha Richardson as Mary Shelley. The cover in its turn almost exactly repeats the plot of The Nightmare (1781), which according to some critics foreshadowed Jungian ideas about the unconscious.  
 The third is a movie adaptation of Lovecraft's story about Herbert Wells, who parodying Frankenstein: or, Shelley's The Modern Prometheus created the "first zombies" (a dead body animated through chemistry, not as in the case of Shelley's monster – a dead body raised by electricity).
