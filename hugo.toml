@@ -295,6 +295,6 @@ paginate = 15
         tabWidth = 4
 
     # enable the following code if there are html statements in your md file
-    # [markup.goldmark]
-    #     [markup.goldmark.renderer]
-    #         unsafe = true
+    [markup.goldmark]
+         [markup.goldmark.renderer]
+             unsafe = true
