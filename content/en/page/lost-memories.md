@@ -104,7 +104,7 @@ Hovering over one of the tags imitating double strands of DNA will play a refrai
 
 **Describing test tube shots as a reference to tasting alcohol sets**
 
-<div class="custom-class">
+<div class='custom-class'>
   <p>Это текст внутри div.</p>
 </div>
 
