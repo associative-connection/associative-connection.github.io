@@ -104,29 +104,9 @@ Hovering over one of the tags imitating double strands of DNA will play a refrai
 
 **Describing test tube shots as a reference to tasting alcohol sets**
 
-<div class="outro">
-		<div class="card-wrap">
-			<div class="card">
-				<a href="#" class="card__image" style="
-                background-image: url(/img/main/dreams/001.png)"></a>
-                <h3 class="card__title">
-                	<a href="#">Post</a>
-                </h3>
-            </div>
-            <div class="card">
-            	<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png);"></a>
-            	<h3 class="card__title">
-            		<a href="#">Post</a>
-            	</h3>
-            </div>
-            <div class="card">
-            	<a href="#" class="card__image" style="background-image: url(/img/main/dreams/001.png);"></a>
-            	<h3 class="card__title">
-            		<a href="#">Post</a>
-            	</h3>
-            </div>
-        </div>
-    </div>
+<div class="custom-class">
+  <p>Это текст внутри div.</p>
+</div>
 
 The first is Propellerhead (the same one that was in Frankenstein's Army and later appeared in Resident Evil: Village).  
 The second is the cover of the movie Gothic (1986), featuring Natasha Richardson as Mary Shelley. The cover in its turn almost exactly repeats the plot of The Nightmare (1781), which according to some critics foreshadowed Jungian ideas about the unconscious.  
